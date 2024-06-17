@@ -16,3 +16,9 @@
   - ChiefEngineer
   - Engineering
   - Atmospherics
+
+  - type: accessGroup # Goobstation - re adding fire door remote
+    id: FireFight
+    tags:
+      - Engineering
+      - Atmospherics
