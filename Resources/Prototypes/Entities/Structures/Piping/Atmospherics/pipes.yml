@@ -143,6 +143,7 @@
     - PipeNetworks
 
 - type: entity
+  # Goobstation - Allow device-on-pipe stacking
   parent: GasPipeNoOverlap
   id: GasPipeBend
   suffix: Bend
@@ -187,6 +188,7 @@
     - PipeNetworks
 
 - type: entity
+  # Goobstation - Allow device-on-pipe stacking
   parent: GasPipeNoOverlap
   id: GasPipeTJunction
   suffix: TJunction
@@ -227,6 +229,7 @@
     - PipeNetworks
 
 - type: entity
+  # Goobstation - Allow device-on-pipe stacking
   parent: GasPipeNoOverlap
   id: GasPipeFourway
   suffix: Fourway
@@ -267,6 +270,7 @@
 
 - type: entity
   id: GasPipeBroken
+  # Goobstation - Allow device-on-pipe stacking
   parent: GasPipeNoOverlap
   name: broken pipe
   description: It used to hold gas.
