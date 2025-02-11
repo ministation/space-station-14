@@ -98,6 +98,7 @@
       - id: DoorRemoteFirefight # Goobstation - re adding fire door remote
       - id: RCD
       - id: RCDAmmo
+      - id: ClothingHandsGlovesAtmosInsulated # Goobstation - insulated atmos gloves
 
 - type: entity
   id: LockerAtmosphericsFilled
@@ -116,6 +117,7 @@
       - id: DoorRemoteFirefight # Goobstation - re adding fire door remote
       - id: RCD
       - id: RCDAmmo
+      - id: ClothingHandsGlovesAtmosInsulated # Goobstation - insulated atmos gloves
 
 - type: entity
   id: LockerEngineerFilledHardsuit
