@@ -1,0 +1,13 @@
+- type: entity
+  id: MagazineMiniMachineGunBox
+  name: "Магазин для мини-пулемета ОСЩ"
+  parent: MagazineLightRifleBox
+  components:
+  - type: Tag
+    tags:
+    - MagazineMiniMachineGunBox
+  - type: BallisticAmmoProvider
+    proto: CartridgeRifle
+    capacity: 55
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Magazine/LightRifle/light_rifle_box.rsi #заменить на свой спрайт

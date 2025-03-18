@@ -1,0 +1,24 @@
+- type: entity
+  name: Мини-пулемет ОСЩ
+  id: WeaponMiniMachineGun
+  parent: WeaponLightMachineGunL6
+  description: Мини-пулемет ОСЩ
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/LMGs/l6.rsi # вставить спрайт
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-3
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineMiniMachineGunBox
+        insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+          - MagazineMiniMachineGunBox
