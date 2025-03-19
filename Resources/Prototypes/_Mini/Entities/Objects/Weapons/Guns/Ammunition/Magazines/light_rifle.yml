@@ -10,4 +10,4 @@
     proto: CartridgeRifle
     capacity: 55
   - type: Sprite
-    sprite: _Mini\Objects\Weapons\Guns\Ammunition\Magazine\LightRifle\light_rifle_box.rsi
+    sprite: _Mini/ObjectsWeapons/Guns/Ammunition/Magazine/LightRifle/light_rifle_box.rsi
