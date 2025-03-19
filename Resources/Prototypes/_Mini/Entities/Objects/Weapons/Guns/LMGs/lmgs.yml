@@ -1,0 +1,24 @@
+- type: entity
+  name: Мини-пулемет ОСЩ
+  id: WeaponMiniMachineGun
+  parent: WeaponLightMachineGunL6
+  description: Передовое оружие с огромным, по меркам оружейной промышленности НТ, боезапасом, полученным с помощью блюспейспейс технологий!
+  components:
+  - type: Sprite
+    sprite: /_Mini/Objects/Weapons/Guns/LMGs/krio_gun.rsi # вставить спрайт
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-3
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineMiniMachineGunBox
+        insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+          - MagazineMiniMachineGunBox
