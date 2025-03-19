@@ -122,9 +122,9 @@
       - id: Zipties
         amount: 3
       - id: ADTtelescopicBaton # ADT
-      - id: MagazinePistolSubMachineGun
+      - id: MagazineMiniMachineGunBox
         amount: 4
-      - id: WeaponSubMachineGunDrozd
+      - id: WeaponMiniMachineGun
       - id: HandheldCrewMonitor
   - type: ExplosionResistance
     damageCoefficient: 0.6
