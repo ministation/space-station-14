@@ -32,5 +32,5 @@
   angleIncrease: 4
   angleDecay: 16
   fireRate: 7      
-    soundGunshot:
-      path: /Audio/Weapons/Guns/Gunshots/c-20r.ogg
+  soundGunshot:
+    path: /Audio/Weapons/Guns/Gunshots/c-20r.ogg
