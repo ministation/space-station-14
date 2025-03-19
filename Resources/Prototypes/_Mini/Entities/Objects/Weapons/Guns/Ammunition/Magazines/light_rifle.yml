@@ -10,4 +10,4 @@
     proto: CartridgeRifle
     capacity: 55
   - type: Sprite
-    sprite: /_Mini/Objects/Weapons/Guns/Ammunition/Magazine/LightRifle/light_rifle_box.rsi #заменить на свой спрайт
+    sprite: _Mini\Objects\Weapons\Guns\Ammunition\Magazine\LightRifle\light_rifle.yml

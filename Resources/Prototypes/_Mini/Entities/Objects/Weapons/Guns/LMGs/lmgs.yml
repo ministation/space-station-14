@@ -5,7 +5,7 @@
   description: Передовое оружие с огромным, по меркам оружейной промышленности НТ, боезапасом, полученным с помощью блюспейспейс технологий!
   components:
   - type: Sprite
-    sprite: /_Mini/Objects/Weapons/Guns/LMGs/krio_gun.rsi # вставить спрайт
+    sprite: _Mini/Objects/Weapons/Guns/LMGs/krio_gun.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
