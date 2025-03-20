@@ -5,7 +5,7 @@
   playTimeTracker: JobClown
   requirements:
     - !type:OverallPlaytimeRequirement
-        time: 144000 # 40 hours
+        time: 1800 # 40 hours
   startingGear: ClownGear
   icon: "JobIconClown"
   supervisors: job-supervisors-hop
