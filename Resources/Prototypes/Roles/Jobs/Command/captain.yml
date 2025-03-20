@@ -20,7 +20,7 @@
       role: JobHeadOfPersonnel
       time: 18000 # 5 hours
     - !type:OverallPlaytimeRequirement
-      time: 43200 # 140 hours
+      time: 43200 # 12 hours
     - !type:AgeRequirement
       requiredAge: 26
   weight: 20
