@@ -6,21 +6,21 @@
   requirements:
     - !type:DepartmentTimeRequirement
       department: Engineering
-      time: 72000 # 20 hours
+      time: 28800 # 8 hours
     - !type:DepartmentTimeRequirement
       department: Medical
-      time: 72000 # 20 hours
+      time: 28800 # 8 hours
     - !type:DepartmentTimeRequirement
       department: Security
-      time: 108000 # 30 hours
+      time: 28800 # 8 hours
     - !type:DepartmentTimeRequirement
       department: Command
-      time: 72000 # 20 hours
+      time: 28800 # 8 hours
     - !type:RoleTimeRequirement
       role: JobHeadOfPersonnel
       time: 18000 # 5 hours
     - !type:OverallPlaytimeRequirement
-      time: 504000 # 140 hours
+      time: 43200 # 140 hours
     - !type:AgeRequirement
       requiredAge: 26
   weight: 20
