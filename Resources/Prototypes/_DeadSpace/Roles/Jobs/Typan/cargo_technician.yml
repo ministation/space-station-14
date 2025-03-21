@@ -12,7 +12,7 @@
       department: Cargo
       time: 18000
     - !type:OverallPlaytimeRequirement
-      time: 36000
+      time: 3600
   access:
   - SyndicateAgent
   - NuclearOperative
