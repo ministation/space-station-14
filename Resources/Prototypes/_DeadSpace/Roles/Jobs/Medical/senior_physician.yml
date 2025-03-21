@@ -6,10 +6,10 @@
   requirements:
     - !type:RoleTimeRequirement
       role: JobChemist
-      time: 36000 # 10 hours
+      time: 7200 # 2 hours
     - !type:DepartmentTimeRequirement
       department: Medical
-      time: 288000 # 80 hours
+      time: 7200 # 2 hours
     - !type:AgeRequirement
       requiredAge: 24
   startingGear: SeniorPhysicianGear
