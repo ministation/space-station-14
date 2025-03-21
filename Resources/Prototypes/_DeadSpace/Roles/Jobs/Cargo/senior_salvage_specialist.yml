@@ -6,7 +6,7 @@
   requirements:
     - !type:RoleTimeRequirement
       role: JobSalvageSpecialist
-      time: 216000 # 60 hours
+      time: 14400 # 4 hours
     - !type:AgeRequirement
       requiredAge: 24
   startingGear: SeniorSalvageSpecialistGear
