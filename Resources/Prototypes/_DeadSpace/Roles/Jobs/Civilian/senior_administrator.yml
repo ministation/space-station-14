@@ -6,10 +6,10 @@
   requirements:
     - !type:RoleTimeRequirement
       role: JobBartender
-      time: 21600 # 6 hours
+      time: 3600 # 1 hours
     - !type:RoleTimeRequirement
       role: JobBotanist
-      time: 21600 # 6 hours
+      time: 3600 # 1 hours
     - !type:RoleTimeRequirement
       role: JobChaplain
       time: 7200 # 2 hours
@@ -36,9 +36,9 @@
       time: 7200 # 2 hours
     - !type:DepartmentTimeRequirement
       department: Civilian
-      time: 144000 # 40 hours
+      time: 14400 # 4 hours
     - !type:OverallPlaytimeRequirement
-      time: 216000 # 60 hours
+      time: 21600 # 6 hours
     - !type:AgeRequirement
       requiredAge: 24
   startingGear: SeniorAdministratorGear
