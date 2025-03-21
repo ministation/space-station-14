@@ -6,13 +6,13 @@
   requirements:
     - !type:RoleTimeRequirement
       role: JobAtmosphericTechnician
-      time: 36000 # 10 hours
+      time: 10800 # 3 hours
     - !type:RoleTimeRequirement
       role: JobStationEngineer
-      time: 36000 # 10 hours
+      time: 3600 # 1 hours
     - !type:DepartmentTimeRequirement
       department: Engineering
-      time: 216000 # 60 hours
+      time: 10800 # 3 hours
     - !type:AgeRequirement
       requiredAge: 24
   startingGear: SeniorEngineerGear
