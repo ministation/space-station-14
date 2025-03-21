@@ -5,10 +5,10 @@
   playTimeTracker: JobBorgSecurity
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 216000 # 60 hours
+      time: 7200 # 2 hours
     - !type:RoleTimeRequirement
       role: JobSecurityOfficer
-      time: 54000 # 15 hours
+      time: 10800 # 3 hours
   canBeAntag: false
   icon: JobIconBorg
   supervisors: job-supervisors-security-borg
