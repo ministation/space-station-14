@@ -45,7 +45,7 @@
 - type: ttsVoice
   id: Myron
   name: tts-voice-name-myron
-  sex: Male
+  sex: Female
   speaker: myron
   roundStart: true
 
