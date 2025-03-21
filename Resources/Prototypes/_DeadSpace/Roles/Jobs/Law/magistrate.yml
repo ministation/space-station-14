@@ -12,7 +12,7 @@
       department: Security
       time: 10800 # 3 hours
     - !type:OverallPlaytimeRequirement
-      time: 50400 # 14 hours
+      time: 14400 # 4 hours
     - !type:AgeRequirement
       requiredAge: 26
   startingGear: MagistratGear
