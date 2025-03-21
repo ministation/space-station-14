@@ -9,9 +9,9 @@
       time: 21600 # 6 hours
     - !type:DepartmentTimeRequirement
       department: Security
-      time: 72000 # 20 hours
+      time: 7200 # 2 hours
     - !type:OverallPlaytimeRequirement
-      time: 144000 # 40 hours
+      time: 14400 # 6 hours
     - !type:AgeRequirement
       requiredAge: 24
   startingGear: IAAGear
