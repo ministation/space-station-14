@@ -7,7 +7,7 @@
 - type: ttsVoice
   id: Baya
   name: tts-voice-name-baya
-  sex: Unsexed
+  sex: Female
   speaker: baya
 
 - type: ttsVoice
@@ -45,7 +45,7 @@
 - type: ttsVoice
   id: Myron
   name: tts-voice-name-myron
-  sex: Unsexed
+  sex: Male
   speaker: myron
   roundStart: true
 
