@@ -15,7 +15,7 @@ RELEASE_DIR = "release"
 # CONFIGURATION PARAMETERS
 # Forks should change these to publish to their own infrastructure.
 #
-ROBUST_CDN_URL = "http://5.9.245.55/cdn"
+ROBUST_CDN_URL = "http://5.9.245.55/"
 FORK_ID = "ministation"
 
 def main():
