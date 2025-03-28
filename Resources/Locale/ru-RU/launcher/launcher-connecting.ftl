@@ -10,7 +10,7 @@ connecting-redial-wait = Пожалуйста подождите: { TOSTRING($ti
 connecting-in-progress = Подключение к серверу...
 connecting-disconnected = Отключён от сервера:
 connecting-window-tip = Совет { $numberTip }
-connecting-version = МК14
+connecting-version = мини14
 connecting-fail-reason =
     Не удалось подключиться к серверу:
     { $reason }
