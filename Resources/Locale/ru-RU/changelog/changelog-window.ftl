@@ -10,5 +10,5 @@ changelog-version-tag = версия v{ $version }
 changelog-button = Обновления
 changelog-button-new-entries = Обновления (!)
 changelog-tab-title-Changelog = Wizard's Den
-changelog-tab-title-ChangelogDS14 = Мёртвый Космос
+changelog-tab-title-ChangelogDS14 = Мини-станция
 changelog-tab-title-Admin = Админские
