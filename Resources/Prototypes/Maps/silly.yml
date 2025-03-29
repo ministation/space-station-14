@@ -1,6 +1,6 @@
 - type: gameMap
-  id: CorvaxSilly
-  mapName: 'DS Silly Island'
+  id: Silly
+  mapName: 'Silly Island'
   mapPath: /Maps/ds_silly.yml
   maxRandomOffset: 0
   randomRotation: false
