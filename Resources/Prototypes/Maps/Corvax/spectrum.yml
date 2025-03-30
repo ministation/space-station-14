@@ -1,5 +1,5 @@
 - type: gameMap
-  id: Spectrum
+  id: CorvaxSpectrum
   mapName: 'Spectrum Station'
   mapPath: /Maps/corvax_spectrum.yml
   minPlayers: 40

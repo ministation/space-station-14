@@ -1,12 +1,12 @@
 - type: gameMapPool
   id: DefaultMapPool
   maps:
-  - Astra
-  - Avrite
-  - Delta
-  - Paper
-  - Silly
-  - Spectrum
+  - CorvaxAstra
+  - CorvaxAvrite
+  - CorvaxDelta
+  - CorvaxPaper
+  - CorvaxSilly
+  - CorvaxSpectrum
   - Amber
   - Bagel
   - Barratry
