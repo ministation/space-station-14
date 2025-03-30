@@ -1,5 +1,5 @@
 - type: gameMap
-  id: CorvaxPaper
+  id: Paper
   mapName: 'Paper Station'
   mapPath: /Maps/corvax_paper.yml
   minPlayers: 14
