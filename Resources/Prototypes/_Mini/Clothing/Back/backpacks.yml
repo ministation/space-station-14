@@ -1,0 +1,32 @@
+- type: entity
+  parent: [Clothing, ContentsExplosionResistanceBase]
+  id: ClothingBackpackWinRar
+  name: Рюкзак WinRAR
+  description: Этот рюкзак слишком яркий для этих мест. На рюкзаке можно заметить бирку с надписью "есть заархивированная станция но у вас нет подписки что бы получить к ней доступ."
+  components:
+  - type: Sprite
+    sprite: _Mini\Clothing\Back\Backpacks\backpackWinRar.rsi
+    state: icon
+  - type: Item
+    size: Huge
+  - type: Clothing
+    quickEquip: false
+    slots:
+    - back
+  - type: Storage
+    grid:
+    - 0,0,6,3
+    maxItemSize: Huge
+  - type: ContainerContainer
+    containers:
+      storagebase: !type:Container
+        ents: []
+  - type: UserInterface
+    interfaces:
+      enum.StorageUiKey.Key:
+        type: StorageBoundUserInterface
+  # to prevent bag open/honk spam
+  - type: UseDelay
+    delay: 0.5
+  - type: ExplosionResistance
+    damageCoefficient: 0.9
