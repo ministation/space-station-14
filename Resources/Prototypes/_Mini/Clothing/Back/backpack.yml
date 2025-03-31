@@ -1,0 +1,13 @@
+- type: entity
+  parent: ClothingBackpack
+  id: ClothingBackpackWinRar
+  name: Рюкзак WinRAR
+  description: тест #свое описание 
+  components:
+  - type: Sprite
+    sprite: _Mini\Clothing\Back\Backpacks\backpackWinRar.rsi
+    state: icon
+  - type: Item
+    size: Huge
+  - type: Storage
+    maxItemSize: Huge
