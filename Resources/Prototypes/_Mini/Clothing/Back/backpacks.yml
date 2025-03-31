@@ -1,8 +1,8 @@
 - type: entity
   parent: [Clothing, ContentsExplosionResistanceBase]
   id: ClothingBackpackWinRar
-  name: Рюкзак WinRAR
-  description: Этот рюкзак слишком яркий для этих мест. На рюкзаке можно заметить бирку с надписью "есть заархивированная станция но у вас нет подписки что бы получить к ней доступ."
+  name: Рюкзак WinRar
+  description: Говорят в этом рюкзаке заархивирована станция, но пароль от архива давно забыт...
   components:
   - type: Sprite
     sprite: _Mini\Clothing\Back\Backpacks\backpackWinRar.rsi
