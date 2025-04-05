@@ -123,7 +123,7 @@
         amount: 3
       - id: ADTtelescopicBaton # ADT
       - id: MagazineMiniMachineGunBox
-        amount: 2
+        amount: 3
       - id: WeaponMiniMachineGun
       - id: HandheldCrewMonitor
       - id: WeaponDisabler
