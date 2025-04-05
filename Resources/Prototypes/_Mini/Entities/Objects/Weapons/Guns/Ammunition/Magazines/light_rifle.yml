@@ -9,5 +9,9 @@
   - type: BallisticAmmoProvider
     proto: CartridgeMinigun
     capacity: 150
+    mayTransfer: false
+    whitelist:
+      tags:
+        - CartridgeMinigun
   - type: Sprite
     sprite: _Mini/Objects/Weapons/Guns/Ammunition/Magazine/LightRifle/light_rifle_box.rsi
