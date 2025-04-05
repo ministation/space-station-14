@@ -27,10 +27,10 @@
           tags:
           - MagazineMiniMachineGunBox
   - type: Gun
-  minAngle: 20
-  maxAngle: 21
-  angleIncrease: 4
-  angleDecay: 16
-  fireRate: 7      
-  soundGunshot:
+    minAngle: 20
+    maxAngle: 21
+    angleIncrease: 4
+    angleDecay: 16
+    fireRate: 9    
+    soundGunshot:
     path: /Audio/Weapons/Guns/Gunshots/c-20r.ogg
