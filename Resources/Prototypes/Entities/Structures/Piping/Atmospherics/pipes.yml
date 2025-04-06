@@ -19,6 +19,11 @@
   - type: PipeAppearance
   - type: Anchorable
   - type: Rotatable
+  - type: RCDDeconstructable
+    cost: 0.5
+    delay: 2
+    fx: EffectRCDDeconstruct2
+    rpd: true
   - type: Destructible
     thresholds:
     - trigger: # for nukes
@@ -51,7 +56,8 @@
   - type: Appearance
   - type: PipeColorVisuals
   - type: NodeContainer
-  - type: PipeRestrictOverlap
+  # Goobstation - Allow device-on-pipe stacking
+  # - type: PipeRestrictOverlap
   - type: AtmosUnsafeUnanchor
   - type: AtmosPipeColor
   - type: AtmosMonitoringConsoleDevice
@@ -64,10 +70,19 @@
   - type: StaticPrice
     price: 30
 
+# Goobstation - Allow device-on-pipe stacking
+- type: entity
+  abstract: true
+  parent: GasPipeBase
+  id: GasPipeNoOverlap
+  components:
+  - type: PipeRestrictOverlap
+
 #Note: The PipeDirection of the PipeNode should be the south-facing version, because the entity starts at an angle of 0 (south)
 
 - type: entity
-  parent: GasPipeBase
+  # Goobstation - Allow device-on-pipe stacking
+  parent: GasPipeNoOverlap
   id: GasPipeHalf
   suffix: Half
   components:
@@ -90,7 +105,8 @@
     - PipeNetworks
 
 - type: entity
-  parent: GasPipeBase
+  # Goobstation - Allow device-on-pipe stacking
+  parent: GasPipeNoOverlap
   id: GasPipeStraight
   suffix: Straight
   components:
@@ -127,7 +143,8 @@
     - PipeNetworks
 
 - type: entity
-  parent: GasPipeBase
+  # Goobstation - Allow device-on-pipe stacking
+  parent: GasPipeNoOverlap
   id: GasPipeBend
   suffix: Bend
   components:
@@ -171,7 +188,8 @@
     - PipeNetworks
 
 - type: entity
-  parent: GasPipeBase
+  # Goobstation - Allow device-on-pipe stacking
+  parent: GasPipeNoOverlap
   id: GasPipeTJunction
   suffix: TJunction
   components:
@@ -211,7 +229,8 @@
     - PipeNetworks
 
 - type: entity
-  parent: GasPipeBase
+  # Goobstation - Allow device-on-pipe stacking
+  parent: GasPipeNoOverlap
   id: GasPipeFourway
   suffix: Fourway
   components:
@@ -251,7 +270,8 @@
 
 - type: entity
   id: GasPipeBroken
-  parent: GasPipeBase
+  # Goobstation - Allow device-on-pipe stacking
+  parent: GasPipeNoOverlap
   name: broken pipe
   description: It used to hold gas.
   components:

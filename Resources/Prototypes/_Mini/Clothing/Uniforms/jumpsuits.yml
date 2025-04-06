@@ -1,0 +1,11 @@
+﻿- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitWinRar
+  name: Костюм WinRar
+  description: костюм геев 
+  components:
+    - type: Sprite
+      sprite: _Mini\Clothing\Uniforms\Jumpsuit\WinRar.yml
+    - type: Clothing
+      sprite: _Mini\Clothing\Uniforms\Jumpsuit\WinRar.yml
+

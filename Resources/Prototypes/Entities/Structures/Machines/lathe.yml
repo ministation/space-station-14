@@ -206,12 +206,14 @@
     - Instruments
     - Equipment
     - FauxTiles
+    - NightVisionTech # DS14
   - type: EmagLatheRecipes
     emagDynamicPacks:
     - SecurityAmmo
     - SecurityExplosives
     - SecurityEquipment
     - SecurityWeapons
+    - SecurityAmmoStaticMini # mini
 
 - type: entity
   id: ProtolatheHyperConvection
@@ -394,6 +396,7 @@
     - SecurityAmmoStatic
     - SecurityWeaponsStatic
     - SecurityBorgModulesStatic
+    - SecurityAmmoStaticMini # mini
     dynamicPacks:
     - SecurityEquipment
     - SecurityBoards
@@ -433,6 +436,7 @@
       runningState: icon
       staticPacks:
       - SecurityAmmoStatic
+      - SecurityAmmoStaticMini # mini
     - type: MaterialStorage
       whitelist:
         tags:

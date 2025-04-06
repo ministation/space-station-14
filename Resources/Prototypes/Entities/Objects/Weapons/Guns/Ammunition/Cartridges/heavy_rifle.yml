@@ -28,3 +28,6 @@
   - type: CartridgeAmmo
     proto: BulletMinigun
     deleteOnSpawn: true
+  - type: Tag
+    tags:
+    - CartridgeMinigun

@@ -123,8 +123,9 @@
         amount: 3
       - id: ADTtelescopicBaton # ADT
       - id: MagazineMiniMachineGunBox
-        amount: 4
+        amount: 3
       - id: WeaponMiniMachineGun
       - id: HandheldCrewMonitor
+      - id: WeaponDisabler
   - type: ExplosionResistance
     damageCoefficient: 0.6
