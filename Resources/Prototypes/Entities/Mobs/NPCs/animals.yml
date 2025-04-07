@@ -440,7 +440,7 @@
     baseWalkSpeed : 3
     baseSprintSpeed : 5.1
   - type: TTS
-    voice: Bandit
+    voice: Garithos
 
 - type: entity
   name: mothroach
@@ -874,7 +874,7 @@
   - type: ReplacementAccent
     accent: cow
   - type: TTS
-    voice: Thrud
+    voice: Garithos
 
 - type: entity
   name: crab
@@ -1242,7 +1242,7 @@
       task: SimpleHostileCompound
   - type: Sanity
   - type: TTS
-    voice: Ycf
+    voice: Garithos
 
 - type: entity
   name: boxing kangaroo

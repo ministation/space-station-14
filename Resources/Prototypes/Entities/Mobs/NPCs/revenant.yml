@@ -83,4 +83,4 @@
     groups:
       Acidic: [Touch]
   - type: TTS # Corvax-TTS
-    voice: Kelthuzad
+    voice: Garithos

@@ -4,7 +4,6 @@
   result: MagazineMiniMachineGunBox
   materials:
     Steel: 1000
-  time: 7
 
 - type: latheRecipePack
   id: SecurityAmmoStaticMini

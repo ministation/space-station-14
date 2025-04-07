@@ -575,7 +575,7 @@
   - type: HardsuitIdentification
   - type: Speech
   - type: TTS
-    voice: Adjutant
+    voice: Garithos
 
 # Syndicate Medic Hardsuit
 - type: entity
@@ -597,7 +597,7 @@
   - type: HardsuitIdentification
   - type: Speech
   - type: TTS
-    voice: Adjutant
+    voice: Garithos
 
 #Syndicate Elite Hardsuit
 - type: entity
@@ -641,7 +641,7 @@
   - type: HardsuitIdentification
   - type: Speech
   - type: TTS
-    voice: Adjutant
+    voice: Garithos
 
 #Syndicate Commander Hardsuit
 - type: entity
@@ -678,7 +678,7 @@
   - type: HardsuitIdentification
   - type: Speech
   - type: TTS
-    voice: Adjutant
+    voice: Garithos
 
 #Cybersun Juggernaut Hardsuit
 - type: entity
@@ -715,7 +715,7 @@
   - type: HardsuitIdentification
   - type: Speech
   - type: TTS
-    voice: Adjutant
+    voice: Garithos
 
 #Wizard Hardsuit
 - type: entity
@@ -861,7 +861,7 @@
   - type: HardsuitIdentification
   - type: Speech
   - type: TTS
-    voice: Glados
+    voice: Garithos
 
 #ERT Chaplain Hardsuit
 - type: entity
@@ -893,7 +893,7 @@
   - type: HardsuitIdentification
   - type: Speech
   - type: TTS
-    voice: Glados
+    voice: Garithos
 
 #ERT Medic Hardsuit
 - type: entity
@@ -911,7 +911,7 @@
   - type: HardsuitIdentification
   - type: Speech
   - type: TTS
-    voice: Glados
+    voice: Garithos
 
 #ERT Security Hardsuit
 - type: entity
@@ -933,7 +933,7 @@
   - type: HardsuitIdentification
   - type: Speech
   - type: TTS
-    voice: Glados
+    voice: Garithos
 
 #ERT Janitor Hardsuit
 - type: entity
@@ -951,7 +951,7 @@
   - type: HardsuitIdentification
   - type: Speech
   - type: TTS
-    voice: Glados
+    voice: Garithos
 
 #Deathsquad
 - type: entity
@@ -993,7 +993,7 @@
   - type: HardsuitIdentification
   - type: Speech
   - type: TTS
-    voice: Adjutant
+    voice: Garithos
   - type: Tag
     tags: [] # ignore "WhitelistChameleon" tag
 

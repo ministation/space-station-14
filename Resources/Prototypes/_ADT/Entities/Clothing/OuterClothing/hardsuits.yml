@@ -32,7 +32,7 @@
   - type: HardsuitIdentification
   - type: Speech
   - type: TTS
-    voice: Adjutant
+    voice: Garithos
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -71,7 +71,7 @@
   - type: HardsuitIdentification
   - type: Speech
   - type: TTS
-    voice: Adjutant
+    voice: Garithos
 
 - type: entity
   parent: ClothingOuterHardsuitBase

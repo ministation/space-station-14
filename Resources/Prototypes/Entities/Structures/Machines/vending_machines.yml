@@ -105,7 +105,7 @@
   - type: Appearance
   - type: WiresVisuals
   - type: TTS
-    voice: TrainingRobot
+    voice: Garithos
 
 - type: entity
   parent: VendingMachine
@@ -327,7 +327,7 @@
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: TTS
-    voice: Tereshkova
+    voice: Garithos
 
 - type: entity
   parent: VendingMachine
@@ -955,7 +955,7 @@
     - Security
     - Antagonists
   - type: TTS
-    voice: Glowtron
+    voice: Garithos
 
 - type: entity
   parent: VendingMachine
@@ -1588,7 +1588,7 @@
   - type: AccessReader
     access: [["Security"]]
   - type: TTS
-    voice: Glowtron
+    voice: Garithos
 
 - type: entity
   parent: VendingMachine
