@@ -1,11 +1,21 @@
-﻿- type: entity
+- type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitWinRar
   name: Костюм WinRar
-  description: костюм геев 
+  description: Что-то это мне напоминает... 
   components:
     - type: Sprite
-      sprite: _Mini\Clothing\Uniforms\Jumpsuit\WinRar.yml
+      sprite: _Mini/Clothing/Uniforms/Jumpsuit/WinRar.rsi
     - type: Clothing
-      sprite: _Mini\Clothing\Uniforms\Jumpsuit\WinRar.yml
+      sprite: _Mini/Clothing/Uniforms/Jumpsuit/WinRar.rsi
 
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingCultAcolit
+  name: Одеяние Аколита
+  description: Зловещего вида одеяние культа. На одеяние можно заметить как его изуродовали, торчящие нитки и дырки не дают покоя в этой робе. Теперь доспехи аколита легальны...
+  components:
+    - type: Sprite
+      sprite: _Mini/Clothing/Uniforms/Jumpsuit/ClothingCultAcolit.rsi
+    - type: Clothing
+      sprite: _Mini/Clothing/Uniforms/Jumpsuit/ClothingCultAcolit.rsi
