@@ -11,7 +11,7 @@
     minimumWait: 30
     maximumWait: 180
   - type: TTS
-    voice: Gyro
+    voice: Garithos
 
 - type: entity
   name: спавнер Поли

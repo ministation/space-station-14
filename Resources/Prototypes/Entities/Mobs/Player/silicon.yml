@@ -83,7 +83,7 @@
   - type: ShowJobIcons
   - type: AiEye
   - type: TTS
-    voice: Glados
+    voice: Garithos
 
 - type: entity
   id: AiHeldIntellicard

@@ -87,7 +87,7 @@
         Brute: -2
         Burn: -2
   - type: TTS
-    voice: Avozu
+    voice: Garithos
 
 - type: entity
   parent: BaseMobDemonRS

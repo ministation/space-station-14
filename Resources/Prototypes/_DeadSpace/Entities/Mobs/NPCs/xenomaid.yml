@@ -98,7 +98,7 @@
     baseSprintSpeed : 4.5
   - type: NoSlip
   - type: TTS
-    voice: Magess
+    voice: Garithos
   - type: Puller
     needsHands: false
   - type: Hands

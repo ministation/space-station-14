@@ -165,7 +165,7 @@
       Extinguish: [ Touch ]
       Acidic: [Touch, Ingestion]
   - type: TTS
-    voice: Sunboy_mannered
+    voice: Garithos
 
 - type: entity
   name: паук королевской крови

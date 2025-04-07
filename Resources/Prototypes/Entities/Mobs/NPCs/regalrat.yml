@@ -125,7 +125,7 @@
       gender: male
   - type: Sharp
   - type: TTS
-    voice: DrSezavo
+    voice: Garithos
   - type: NightVision # DS14
 
 - type: entity

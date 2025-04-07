@@ -65,7 +65,7 @@
   - type: Loadout
     prototypes: [ BorgSecurity ]
   - type: TTS
-    voice: Glowtron
+    voice: Garithos
   - type: FootstepModifier
     footstepSoundCollection:
       collection: FootstepBorgSec

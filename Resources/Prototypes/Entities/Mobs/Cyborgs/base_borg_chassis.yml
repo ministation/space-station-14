@@ -252,7 +252,7 @@
       flatReductions:
         Heat: 10 # capable of touching light bulbs and stoves without feeling pain!
   - type: TTS # Corvax-TTS
-    voice: TrainingRobot
+    voice: Garithos
   - type: EmotePanel # DS14-Emote-panel
   - type: ComputerEmotes # DS14: For emote panel
 

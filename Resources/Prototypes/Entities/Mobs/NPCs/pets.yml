@@ -549,7 +549,7 @@
     description: ghost-role-information-alexander-description
   - type: GhostTakeoverAvailable
   - type: TTS
-    voice: Chen
+    voice: Garithos
 
 - type: entity
   name: Renault
