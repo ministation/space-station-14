@@ -15,9 +15,9 @@ plant-analyzer-component-mutating = [color=#00ff5f]МУТИРУЮЩИЙ[/color]
 plant-analyzer-component-kudzu = [color=red]КУДЗУ[/color]
 
 plant-analyzer-soil = Здесь [color=white]{$chemicals}[/color] в {$holder} {$count ->
-    [one] которое
-    *[other] которые
-} еще не были впитаны.
+    [one] которое еще не было впитано.
+    *[other] еще не были впитаны.
+}
 plant-analyzer-soil-empty = Здесь пусто {$holder}.
 
 plant-analyzer-component-environemt = Это [color=green]{$seedName}[/color] требует атмосферу с давлением [color=lightblue]{$kpa}kPa ± {$kpaTolerance}kPa[/color], температурой [color=lightsalmon]{$temp}°K ± {$tempTolerance}°K[/color] и уровнем освещенности [color=white]{$lightLevel} ± {$lightTolerance}[/color].
