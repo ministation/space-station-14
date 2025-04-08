@@ -41,8 +41,6 @@
       - id: SprayBottleWater
       - id: ReagentContainerFlour
         amount: 2
-      - id: FoodBoxCloth
-        amount: 1
       - id: ReagentContainerSugar
       - id: FoodCondimentPacketSalt
         amount: 3
@@ -54,7 +52,6 @@
       - id: DrinkMilkCarton
         amount: 2
       - id: DrinkSoyMilkCarton
-      - id: ADTIronTray
 
 - type: entity
   id: ClosetJanitorFilled
@@ -106,6 +103,7 @@
         prob: 0.3
       - id: ClothingBeltPlant
       - id: PlantBag ##Some maps don't have nutrivend
+      - id: PlantAnalyzer
       - id: BoxMouthSwab
       - id: Dropper
       - id: HandLabeler
@@ -134,7 +132,6 @@
   id: ClosetJanitorBombFilled
   parent: ClosetJanitorBomb
   suffix: DO NOT MAP, Filled
-  categories: [ DoNotMap ]
   components:
   - type: StorageFill
     contents:
