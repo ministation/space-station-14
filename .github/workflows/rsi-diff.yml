@@ -9,6 +9,9 @@ jobs:
   diff:
     name: Diff
     runs-on: ubuntu-latest
+    permissions:
+      issues: write  # Дает доступ на добавление/удаление меток
+      pull-requests: write  # Если действие применяется к PR
     steps:
       - name: Checkout
         uses: actions/checkout@v4.2.2
