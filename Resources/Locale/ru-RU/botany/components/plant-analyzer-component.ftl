@@ -8,15 +8,15 @@ plant-analyzer-component-toxins = Токсины:
 plant-analyzer-component-pests = Пестициды:
 plant-analyzer-component-weeds = Сорняки:
 
-plant-analyzer-component-alive = [color=green]ЖИВОЕ[color]
-plant-analyzer-component-dead = [color=red]МЕРТВОЕ[color]
-plant-analyzer-component-unviable = [color=red]БЕЗЖИЗНЕННЫЙ[color]
-plant-analyzer-component-mutating = [color=#00ff5f]МУТИРУЮЩИЙ[color]
-plant-analyzer-component-kudzu = [color=red]КУДЗУ[color]
+plant-analyzer-component-alive = [color=green]ЖИВОЕ[/color]
+plant-analyzer-component-dead = [color=red]МЕРТВОЕ[/color]
+plant-analyzer-component-unviable = [color=red]БЕЗЖИЗНЕННЫЙ[/color]
+plant-analyzer-component-mutating = [color=#00ff5f]МУТИРУЮЩИЙ[/color]
+plant-analyzer-component-kudzu = [color=red]КУДЗУ[/color]
 
 plant-analyzer-soil = Здесь [color=white]{$chemicals}[/color] в {$holder} которые {$count ->
-    [one]имеет
-    *[other]have
+    [one] 
+    *[other] 
 } еще не были впитаны.
 plant-analyzer-soil-empty = Здесь пусто {$holder}.
 
