@@ -14,9 +14,9 @@ plant-analyzer-component-unviable = [color=red]БЕЗЖИЗНЕННЫЙ[/color]
 plant-analyzer-component-mutating = [color=#00ff5f]МУТИРУЮЩИЙ[/color]
 plant-analyzer-component-kudzu = [color=red]КУДЗУ[/color]
 
-plant-analyzer-soil = Здесь [color=white]{$chemicals}[/color] в {$holder} которые {$count ->
-    [one] 
-    *[other] 
+plant-analyzer-soil = Здесь [color=white]{$chemicals}[/color] в {$holder} {$count ->
+    [one] которое
+    *[other] которые
 } еще не были впитаны.
 plant-analyzer-soil-empty = Здесь пусто {$holder}.
 
