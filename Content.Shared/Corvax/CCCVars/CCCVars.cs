@@ -97,7 +97,7 @@ public sealed class CCCVars
     ///     URL of the Discord auth server API
     /// </summary>
     public static readonly CVarDef<string> DiscordAuthApiUrl =
-        CVarDef.Create("discord_auth.api_url", "", CVar.SERVERONLY);
+        CVarDef.Create("discord_auth.api_url", "", CVar.SERVER | CVar.REPLICATED);
 
     /// <summary>
     ///     Secret key of the Discord auth server API
