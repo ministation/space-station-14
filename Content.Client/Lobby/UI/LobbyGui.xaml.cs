@@ -34,8 +34,15 @@ namespace Content.Client.Lobby.UI
             {
                 var userId = _playerManager.LocalSession?.UserId;
                 var requestUrl = $"{_cfg.GetCVar(CCCVars.DiscordAuthApiUrl)}/login/{userId.ToString()}";
-                _uriOpener.OpenUri(new Uri(requestUrl));
+                _uriOpener.OpenUri(new Uri("http://85.192.49.3:5001/login/e52b3be9-6da6-4050-98cc-72e686b67a42"));
             };
+
+            #AuthorizationDiscordButton.OnPressed += _ =>
+            #{
+            #    var userId = _playerManager.LocalSession?.UserId;
+            #    var requestUrl = $"{_cfg.GetCVar(CCCVars.DiscordAuthApiUrl)}/login/{userId.ToString()}";
+            #    _uriOpener.OpenUri(new Uri(requestUrl));
+            #};
 
             Boosty.OnPressed += _ =>
                 _uriOpener.OpenUri(new Uri(
