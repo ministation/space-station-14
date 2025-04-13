@@ -2,7 +2,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitWinRar
   name: Костюм WinRar
-  description: Что-то это мне напоминает... 
+  description: Что-то мне это напоминает... 
   components:
     - type: Sprite
       sprite: _Mini/Clothing/Uniforms/Jumpsuit/WinRar.rsi
@@ -19,3 +19,15 @@
       sprite: _Mini/Clothing/Uniforms/Jumpsuit/ClothingCultAcolit.rsi
     - type: Clothing
       sprite: _Mini/Clothing/Uniforms/Jumpsuit/ClothingCultAcolit.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingMri
+  name: Униформа Солдата "MRI"
+  description: Эта форма пахнет кровью коммунистов. На груди висит потёртый значок "MRI".
+  suffix: MRI
+  components:
+    - type: Sprite
+      sprite: _Mini/Clothing/Uniforms/Jumpsuit/ClothingMri.rsi
+    - type: Clothing
+      sprite: _Mini/Clothing/Uniforms/Jumpsuit/ClothingMri.rsi
