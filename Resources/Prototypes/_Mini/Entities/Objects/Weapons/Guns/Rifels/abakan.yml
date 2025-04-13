@@ -1,7 +1,7 @@
 - type: entity
   name: AEK-974
   parent: BaseItem
-  id: ADTAbakanRifleMRi
+  id: AbakanRifleMRi
   description: Советский общевойсковой автомат, разработанный в 2478 году на заводе имени Дегтярёва в Планете Коврове под руководством  Станислав.И.К. Данный Автомат был модифицирован группировкой MRI.
   suffix: MRI
   components:
