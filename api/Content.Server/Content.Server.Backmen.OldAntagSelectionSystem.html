@@ -1,0 +1,945 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class OldAntagSelectionSystem
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class OldAntagSelectionSystem
+   ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Content.Server.Backmen.OldAntagSelectionSystem">
+  
+  
+  <h1 id="Content_Server_Backmen_OldAntagSelectionSystem" data-uid="Content.Server.Backmen.OldAntagSelectionSystem" class="text-break">Class OldAntagSelectionSystem
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">OldAntagSelectionSystem</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Content.Server.Backmen.html">Content.Server.Backmen</a></h6>
+  <h6><strong>Assembly</strong>: Content.Server.dll</h6>
+  <h5 id="Content_Server_Backmen_OldAntagSelectionSystem_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class OldAntagSelectionSystem : EntitySystem</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ministation/space-station-14/new/master/apiSpec/new?filename=Content_Server_Backmen_OldAntagSelectionSystem_CalculateAntagCount_System_Int32_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Content.Server.Backmen.OldAntagSelectionSystem.CalculateAntagCount(System.Int32%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ministation/space-station-14/blob/master/Content.Server/Backmen/OldAntagSelectionSystem.cs/#L201">View Source</a>
+  </span>
+  <a id="Content_Server_Backmen_OldAntagSelectionSystem_CalculateAntagCount_" data-uid="Content.Server.Backmen.OldAntagSelectionSystem.CalculateAntagCount*"></a>
+  <h4 id="Content_Server_Backmen_OldAntagSelectionSystem_CalculateAntagCount_System_Int32_System_Int32_System_Int32_" data-uid="Content.Server.Backmen.OldAntagSelectionSystem.CalculateAntagCount(System.Int32,System.Int32,System.Int32)">CalculateAntagCount(Int32, Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Helper method to calculate the number of antags to select based upon the number of players</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CalculateAntagCount(int playerCount, int playersPerAntag, int maxAntags)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">playerCount</span></td>
+        <td><p>How many players there are on the server</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">playersPerAntag</span></td>
+        <td><p>How many players should there be for an additional antag</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">maxAntags</span></td>
+        <td><p>Maximum number of antags allowed</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The number of antags that should be chosen</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ministation/space-station-14/new/master/apiSpec/new?filename=Content_Server_Backmen_OldAntagSelectionSystem_ChooseAntags_System_Int32_List_EntityUid__.md&amp;value=---%0Auid%3A%20Content.Server.Backmen.OldAntagSelectionSystem.ChooseAntags(System.Int32%2CList%7BEntityUid%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ministation/space-station-14/blob/master/Content.Server/Backmen/OldAntagSelectionSystem.cs/#L239">View Source</a>
+  </span>
+  <a id="Content_Server_Backmen_OldAntagSelectionSystem_ChooseAntags_" data-uid="Content.Server.Backmen.OldAntagSelectionSystem.ChooseAntags*"></a>
+  <h4 id="Content_Server_Backmen_OldAntagSelectionSystem_ChooseAntags_System_Int32_List_EntityUid__" data-uid="Content.Server.Backmen.OldAntagSelectionSystem.ChooseAntags(System.Int32,List{EntityUid})">ChooseAntags(Int32, List&lt;EntityUid&gt;)</h4>
+  <div class="markdown level1 summary"><p>Helper method to choose antags from a list</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;EntityUid&gt; ChooseAntags(int count, List&lt;EntityUid&gt; eligiblePlayers)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">count</span></td>
+        <td><p>How many to choose</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">List</span>&lt;<span class="xref">EntityUid</span>&gt;</td>
+        <td><span class="parametername">eligiblePlayers</span></td>
+        <td><p>List of eligible players</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<span class="xref">EntityUid</span>&gt;</td>
+        <td><p>Up to the specified count of elements from the provided list</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ministation/space-station-14/new/master/apiSpec/new?filename=Content_Server_Backmen_OldAntagSelectionSystem_ChooseAntags_System_Int32_List_EntityUid____.md&amp;value=---%0Auid%3A%20Content.Server.Backmen.OldAntagSelectionSystem.ChooseAntags(System.Int32%2CList%7BEntityUid%7D%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ministation/space-station-14/blob/master/Content.Server/Backmen/OldAntagSelectionSystem.cs/#L213">View Source</a>
+  </span>
+  <a id="Content_Server_Backmen_OldAntagSelectionSystem_ChooseAntags_" data-uid="Content.Server.Backmen.OldAntagSelectionSystem.ChooseAntags*"></a>
+  <h4 id="Content_Server_Backmen_OldAntagSelectionSystem_ChooseAntags_System_Int32_List_EntityUid____" data-uid="Content.Server.Backmen.OldAntagSelectionSystem.ChooseAntags(System.Int32,List{EntityUid}[])">ChooseAntags(Int32, List&lt;EntityUid&gt;[])</h4>
+  <div class="markdown level1 summary"><p>Selects a set number of entities from several lists, prioritising the first list till its empty, then second list etc</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;EntityUid&gt; ChooseAntags(int count, params List&lt;EntityUid&gt;[] eligiblePlayerLists)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">count</span></td>
+        <td><p>How many items to select</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">List</span>&lt;<span class="xref">EntityUid</span>&gt;[]</td>
+        <td><span class="parametername">eligiblePlayerLists</span></td>
+        <td><p>Array of lists, which are chosen from in order until the correct number of items are selected</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<span class="xref">EntityUid</span>&gt;</td>
+        <td><p>Up to the specified count of elements from all provided lists</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ministation/space-station-14/new/master/apiSpec/new?filename=Content_Server_Backmen_OldAntagSelectionSystem_ChooseAntags_System_Int32_List_Robust_Shared_Player_ICommonSession__.md&amp;value=---%0Auid%3A%20Content.Server.Backmen.OldAntagSelectionSystem.ChooseAntags(System.Int32%2CList%7BRobust.Shared.Player.ICommonSession%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ministation/space-station-14/blob/master/Content.Server/Backmen/OldAntagSelectionSystem.cs/#L286">View Source</a>
+  </span>
+  <a id="Content_Server_Backmen_OldAntagSelectionSystem_ChooseAntags_" data-uid="Content.Server.Backmen.OldAntagSelectionSystem.ChooseAntags*"></a>
+  <h4 id="Content_Server_Backmen_OldAntagSelectionSystem_ChooseAntags_System_Int32_List_Robust_Shared_Player_ICommonSession__" data-uid="Content.Server.Backmen.OldAntagSelectionSystem.ChooseAntags(System.Int32,List{Robust.Shared.Player.ICommonSession})">ChooseAntags(Int32, List&lt;ICommonSession&gt;)</h4>
+  <div class="markdown level1 summary"><p>Helper method to choose sessions from a list</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;ICommonSession&gt; ChooseAntags(int count, List&lt;ICommonSession&gt; eligiblePlayers)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">count</span></td>
+        <td><p>How many to choose</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">List</span>&lt;<span class="xref">Robust.Shared.Player.ICommonSession</span>&gt;</td>
+        <td><span class="parametername">eligiblePlayers</span></td>
+        <td><p>List of eligible sessions</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<span class="xref">Robust.Shared.Player.ICommonSession</span>&gt;</td>
+        <td><p>Up to the specified count of elements from the provided list</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ministation/space-station-14/new/master/apiSpec/new?filename=Content_Server_Backmen_OldAntagSelectionSystem_ChooseAntags_System_Int32_List_Robust_Shared_Player_ICommonSession____.md&amp;value=---%0Auid%3A%20Content.Server.Backmen.OldAntagSelectionSystem.ChooseAntags(System.Int32%2CList%7BRobust.Shared.Player.ICommonSession%7D%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ministation/space-station-14/blob/master/Content.Server/Backmen/OldAntagSelectionSystem.cs/#L260">View Source</a>
+  </span>
+  <a id="Content_Server_Backmen_OldAntagSelectionSystem_ChooseAntags_" data-uid="Content.Server.Backmen.OldAntagSelectionSystem.ChooseAntags*"></a>
+  <h4 id="Content_Server_Backmen_OldAntagSelectionSystem_ChooseAntags_System_Int32_List_Robust_Shared_Player_ICommonSession____" data-uid="Content.Server.Backmen.OldAntagSelectionSystem.ChooseAntags(System.Int32,List{Robust.Shared.Player.ICommonSession}[])">ChooseAntags(Int32, List&lt;ICommonSession&gt;[])</h4>
+  <div class="markdown level1 summary"><p>Selects a set number of sessions from several lists, prioritising the first list till its empty, then second list etc</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;ICommonSession&gt; ChooseAntags(int count, params List&lt;ICommonSession&gt;[] eligiblePlayerLists)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">count</span></td>
+        <td><p>How many items to select</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">List</span>&lt;<span class="xref">Robust.Shared.Player.ICommonSession</span>&gt;[]</td>
+        <td><span class="parametername">eligiblePlayerLists</span></td>
+        <td><p>Array of lists, which are chosen from in order until the correct number of items are selected</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<span class="xref">Robust.Shared.Player.ICommonSession</span>&gt;</td>
+        <td><p>Up to the specified count of elements from all provided lists</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ministation/space-station-14/new/master/apiSpec/new?filename=Content_Server_Backmen_OldAntagSelectionSystem_GetEligiblePlayers_IEnumerable_Robust_Shared_Player_ICommonSession__Robust_Shared_Prototypes_ProtoId_Content_Shared_Roles_AntagPrototype__System_Boolean_Content_Shared_Antag_AntagAcceptability_System_Boolean_System_Boolean_System_Nullable_Func_System_Nullable_EntityUid__System_Boolean___.md&amp;value=---%0Auid%3A%20Content.Server.Backmen.OldAntagSelectionSystem.GetEligiblePlayers(IEnumerable%7BRobust.Shared.Player.ICommonSession%7D%2CRobust.Shared.Prototypes.ProtoId%7BContent.Shared.Roles.AntagPrototype%7D%2CSystem.Boolean%2CContent.Shared.Antag.AntagAcceptability%2CSystem.Boolean%2CSystem.Boolean%2CSystem.Nullable%7BFunc%7BSystem.Nullable%7BEntityUid%7D%2CSystem.Boolean%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ministation/space-station-14/blob/master/Content.Server/Backmen/OldAntagSelectionSystem.cs/#L46">View Source</a>
+  </span>
+  <a id="Content_Server_Backmen_OldAntagSelectionSystem_GetEligiblePlayers_" data-uid="Content.Server.Backmen.OldAntagSelectionSystem.GetEligiblePlayers*"></a>
+  <h4 id="Content_Server_Backmen_OldAntagSelectionSystem_GetEligiblePlayers_IEnumerable_Robust_Shared_Player_ICommonSession__Robust_Shared_Prototypes_ProtoId_Content_Shared_Roles_AntagPrototype__System_Boolean_Content_Shared_Antag_AntagAcceptability_System_Boolean_System_Boolean_System_Nullable_Func_System_Nullable_EntityUid__System_Boolean___" data-uid="Content.Server.Backmen.OldAntagSelectionSystem.GetEligiblePlayers(IEnumerable{Robust.Shared.Player.ICommonSession},Robust.Shared.Prototypes.ProtoId{Content.Shared.Roles.AntagPrototype},System.Boolean,Content.Shared.Antag.AntagAcceptability,System.Boolean,System.Boolean,System.Nullable{Func{System.Nullable{EntityUid},System.Boolean}})">GetEligiblePlayers(IEnumerable&lt;ICommonSession&gt;, ProtoId&lt;AntagPrototype&gt;, Boolean, AntagAcceptability, Boolean, Boolean, Nullable&lt;Func&lt;Nullable&lt;EntityUid&gt;, Boolean&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Get all players that are eligible for an antag role</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;EntityUid&gt; GetEligiblePlayers(IEnumerable&lt;ICommonSession&gt; playerSessions, ProtoId&lt;AntagPrototype&gt; antagPrototype, bool includeAllJobs = false, AntagAcceptability acceptableAntags = AntagAcceptability.NotExclusive, bool ignorePreferences = false, bool allowNonHumanoids = false, Func&lt;EntityUid?, bool&gt;? customExcludeCondition = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">Robust.Shared.Player.ICommonSession</span>&gt;</td>
+        <td><span class="parametername">playerSessions</span></td>
+        <td><p>All sessions from which to select eligible players</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Robust.Shared.Prototypes.ProtoId</span>&lt;<a class="xref" href="../Content.Shared/Content.Shared.Roles.AntagPrototype.html">AntagPrototype</a>&gt;</td>
+        <td><span class="parametername">antagPrototype</span></td>
+        <td><p>The prototype to get eligible players for</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">includeAllJobs</span></td>
+        <td><p>Should jobs that prohibit antag roles (ie Heads, Sec, Interns) be included</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../Content.Shared/Content.Shared.Antag.AntagAcceptability.html">AntagAcceptability</a></td>
+        <td><span class="parametername">acceptableAntags</span></td>
+        <td><p>Should players already selected as antags be eligible</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">ignorePreferences</span></td>
+        <td><p>Should we ignore if the player has enabled this specific role</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">allowNonHumanoids</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Func</span>&lt;<span class="xref">System.Nullable</span>&lt;<span class="xref">EntityUid</span>&gt;, <span class="xref">System.Boolean</span>&gt;&gt;</td>
+        <td><span class="parametername">customExcludeCondition</span></td>
+        <td><p>A custom condition that each player is tested against, if it returns true the player is excluded from eligibility</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<span class="xref">EntityUid</span>&gt;</td>
+        <td><p>List of all player entities that match the requirements</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ministation/space-station-14/new/master/apiSpec/new?filename=Content_Server_Backmen_OldAntagSelectionSystem_GetEligibleSessions_IEnumerable_Robust_Shared_Player_ICommonSession__Robust_Shared_Prototypes_ProtoId_Content_Shared_Roles_AntagPrototype__System_Boolean_.md&amp;value=---%0Auid%3A%20Content.Server.Backmen.OldAntagSelectionSystem.GetEligibleSessions(IEnumerable%7BRobust.Shared.Player.ICommonSession%7D%2CRobust.Shared.Prototypes.ProtoId%7BContent.Shared.Roles.AntagPrototype%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ministation/space-station-14/blob/master/Content.Server/Backmen/OldAntagSelectionSystem.cs/#L88">View Source</a>
+  </span>
+  <a id="Content_Server_Backmen_OldAntagSelectionSystem_GetEligibleSessions_" data-uid="Content.Server.Backmen.OldAntagSelectionSystem.GetEligibleSessions*"></a>
+  <h4 id="Content_Server_Backmen_OldAntagSelectionSystem_GetEligibleSessions_IEnumerable_Robust_Shared_Player_ICommonSession__Robust_Shared_Prototypes_ProtoId_Content_Shared_Roles_AntagPrototype__System_Boolean_" data-uid="Content.Server.Backmen.OldAntagSelectionSystem.GetEligibleSessions(IEnumerable{Robust.Shared.Player.ICommonSession},Robust.Shared.Prototypes.ProtoId{Content.Shared.Roles.AntagPrototype},System.Boolean)">GetEligibleSessions(IEnumerable&lt;ICommonSession&gt;, ProtoId&lt;AntagPrototype&gt;, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Get all sessions that are eligible for an antag role, can be run prior to sessions being attached to an entity
+This does not exclude sessions that have already been chosen as antags - that must be handled manually</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;ICommonSession&gt; GetEligibleSessions(IEnumerable&lt;ICommonSession&gt; playerSessions, ProtoId&lt;AntagPrototype&gt; antagPrototype, bool ignorePreferences = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">Robust.Shared.Player.ICommonSession</span>&gt;</td>
+        <td><span class="parametername">playerSessions</span></td>
+        <td><p>All sessions from which to select eligible players</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Robust.Shared.Prototypes.ProtoId</span>&lt;<a class="xref" href="../Content.Shared/Content.Shared.Roles.AntagPrototype.html">AntagPrototype</a>&gt;</td>
+        <td><span class="parametername">antagPrototype</span></td>
+        <td><p>The prototype to get eligible players for</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">ignorePreferences</span></td>
+        <td><p>Should we ignore if the player has enabled this specific role</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<span class="xref">Robust.Shared.Player.ICommonSession</span>&gt;</td>
+        <td><p>List of all player sessions that match the requirements</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ministation/space-station-14/new/master/apiSpec/new?filename=Content_Server_Backmen_OldAntagSelectionSystem_IsPlayerEligible_Robust_Shared_Player_ICommonSession_Robust_Shared_Prototypes_ProtoId_Content_Shared_Roles_AntagPrototype__System_Boolean_Content_Shared_Antag_AntagAcceptability_System_Boolean_System_Boolean_System_Nullable_Func_System_Nullable_EntityUid__System_Boolean___.md&amp;value=---%0Auid%3A%20Content.Server.Backmen.OldAntagSelectionSystem.IsPlayerEligible(Robust.Shared.Player.ICommonSession%2CRobust.Shared.Prototypes.ProtoId%7BContent.Shared.Roles.AntagPrototype%7D%2CSystem.Boolean%2CContent.Shared.Antag.AntagAcceptability%2CSystem.Boolean%2CSystem.Boolean%2CSystem.Nullable%7BFunc%7BSystem.Nullable%7BEntityUid%7D%2CSystem.Boolean%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ministation/space-station-14/blob/master/Content.Server/Backmen/OldAntagSelectionSystem.cs/#L111">View Source</a>
+  </span>
+  <a id="Content_Server_Backmen_OldAntagSelectionSystem_IsPlayerEligible_" data-uid="Content.Server.Backmen.OldAntagSelectionSystem.IsPlayerEligible*"></a>
+  <h4 id="Content_Server_Backmen_OldAntagSelectionSystem_IsPlayerEligible_Robust_Shared_Player_ICommonSession_Robust_Shared_Prototypes_ProtoId_Content_Shared_Roles_AntagPrototype__System_Boolean_Content_Shared_Antag_AntagAcceptability_System_Boolean_System_Boolean_System_Nullable_Func_System_Nullable_EntityUid__System_Boolean___" data-uid="Content.Server.Backmen.OldAntagSelectionSystem.IsPlayerEligible(Robust.Shared.Player.ICommonSession,Robust.Shared.Prototypes.ProtoId{Content.Shared.Roles.AntagPrototype},System.Boolean,Content.Shared.Antag.AntagAcceptability,System.Boolean,System.Boolean,System.Nullable{Func{System.Nullable{EntityUid},System.Boolean}})">IsPlayerEligible(ICommonSession, ProtoId&lt;AntagPrototype&gt;, Boolean, AntagAcceptability, Boolean, Boolean, Nullable&lt;Func&lt;Nullable&lt;EntityUid&gt;, Boolean&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Test eligibility of the player for a specific antag role</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsPlayerEligible(ICommonSession session, ProtoId&lt;AntagPrototype&gt; antagPrototype, bool includeAllJobs = false, AntagAcceptability acceptableAntags = AntagAcceptability.NotExclusive, bool ignorePreferences = false, bool allowNonHumanoids = false, Func&lt;EntityUid?, bool&gt;? customExcludeCondition = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Robust.Shared.Player.ICommonSession</span></td>
+        <td><span class="parametername">session</span></td>
+        <td><p>The player session to test</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Robust.Shared.Prototypes.ProtoId</span>&lt;<a class="xref" href="../Content.Shared/Content.Shared.Roles.AntagPrototype.html">AntagPrototype</a>&gt;</td>
+        <td><span class="parametername">antagPrototype</span></td>
+        <td><p>The prototype to get eligible players for</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">includeAllJobs</span></td>
+        <td><p>Should jobs that prohibit antag roles (ie Heads, Sec, Interns) be included</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../Content.Shared/Content.Shared.Antag.AntagAcceptability.html">AntagAcceptability</a></td>
+        <td><span class="parametername">acceptableAntags</span></td>
+        <td><p>Should players already selected as antags be eligible</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">ignorePreferences</span></td>
+        <td><p>Should we ignore if the player has enabled this specific role</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">allowNonHumanoids</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Func</span>&lt;<span class="xref">System.Nullable</span>&lt;<span class="xref">EntityUid</span>&gt;, <span class="xref">System.Boolean</span>&gt;&gt;</td>
+        <td><span class="parametername">customExcludeCondition</span></td>
+        <td><p>A function, accepting an EntityUid and returning bool. Each player is tested against this, returning truw will exclude the player from eligibility</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if the player session matches the requirements, false otherwise</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ministation/space-station-14/new/master/apiSpec/new?filename=Content_Server_Backmen_OldAntagSelectionSystem_IsSessionEligible_Robust_Shared_Player_ICommonSession_Robust_Shared_Prototypes_ProtoId_Content_Shared_Roles_AntagPrototype__System_Boolean_.md&amp;value=---%0Auid%3A%20Content.Server.Backmen.OldAntagSelectionSystem.IsSessionEligible(Robust.Shared.Player.ICommonSession%2CRobust.Shared.Prototypes.ProtoId%7BContent.Shared.Roles.AntagPrototype%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ministation/space-station-14/blob/master/Content.Server/Backmen/OldAntagSelectionSystem.cs/#L176">View Source</a>
+  </span>
+  <a id="Content_Server_Backmen_OldAntagSelectionSystem_IsSessionEligible_" data-uid="Content.Server.Backmen.OldAntagSelectionSystem.IsSessionEligible*"></a>
+  <h4 id="Content_Server_Backmen_OldAntagSelectionSystem_IsSessionEligible_Robust_Shared_Player_ICommonSession_Robust_Shared_Prototypes_ProtoId_Content_Shared_Roles_AntagPrototype__System_Boolean_" data-uid="Content.Server.Backmen.OldAntagSelectionSystem.IsSessionEligible(Robust.Shared.Player.ICommonSession,Robust.Shared.Prototypes.ProtoId{Content.Shared.Roles.AntagPrototype},System.Boolean)">IsSessionEligible(ICommonSession, ProtoId&lt;AntagPrototype&gt;, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Check if the session is eligible for a role, can be run prior to the session being attached to an entity</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsSessionEligible(ICommonSession session, ProtoId&lt;AntagPrototype&gt; antagPrototype, bool ignorePreferences = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Robust.Shared.Player.ICommonSession</span></td>
+        <td><span class="parametername">session</span></td>
+        <td><p>Player session to check</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Robust.Shared.Prototypes.ProtoId</span>&lt;<a class="xref" href="../Content.Shared/Content.Shared.Roles.AntagPrototype.html">AntagPrototype</a>&gt;</td>
+        <td><span class="parametername">antagPrototype</span></td>
+        <td><p>Which antag prototype to check for</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">ignorePreferences</span></td>
+        <td><p>Ignore if the player has enabled this antag</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if the session matches the requirements, false otherwise</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ministation/space-station-14/new/master/apiSpec/new?filename=Content_Server_Backmen_OldAntagSelectionSystem_SendBriefing_EntityUid_System_String_System_Nullable_Color__Robust_Shared_Audio_SoundSpecifier_.md&amp;value=---%0Auid%3A%20Content.Server.Backmen.OldAntagSelectionSystem.SendBriefing(EntityUid%2CSystem.String%2CSystem.Nullable%7BColor%7D%2CRobust.Shared.Audio.SoundSpecifier)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ministation/space-station-14/blob/master/Content.Server/Backmen/OldAntagSelectionSystem.cs/#L325">View Source</a>
+  </span>
+  <a id="Content_Server_Backmen_OldAntagSelectionSystem_SendBriefing_" data-uid="Content.Server.Backmen.OldAntagSelectionSystem.SendBriefing*"></a>
+  <h4 id="Content_Server_Backmen_OldAntagSelectionSystem_SendBriefing_EntityUid_System_String_System_Nullable_Color__Robust_Shared_Audio_SoundSpecifier_" data-uid="Content.Server.Backmen.OldAntagSelectionSystem.SendBriefing(EntityUid,System.String,System.Nullable{Color},Robust.Shared.Audio.SoundSpecifier)">SendBriefing(EntityUid, String, Nullable&lt;Color&gt;, SoundSpecifier)</h4>
+  <div class="markdown level1 summary"><p>Helper method to send the briefing text and sound to a player entity</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SendBriefing(EntityUid entity, string briefing, Color? briefingColor, SoundSpecifier briefingSound)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EntityUid</span></td>
+        <td><span class="parametername">entity</span></td>
+        <td><p>The entity chosen to be antag</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">briefing</span></td>
+        <td><p>The briefing text to send</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Color</span>&gt;</td>
+        <td><span class="parametername">briefingColor</span></td>
+        <td><p>The color the briefing should be, null for default</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Robust.Shared.Audio.SoundSpecifier</span></td>
+        <td><span class="parametername">briefingSound</span></td>
+        <td><p>The sound to briefing/greeting sound to play</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ministation/space-station-14/new/master/apiSpec/new?filename=Content_Server_Backmen_OldAntagSelectionSystem_SendBriefing_List_EntityUid__System_String_System_Nullable_Color__Robust_Shared_Audio_SoundSpecifier_.md&amp;value=---%0Auid%3A%20Content.Server.Backmen.OldAntagSelectionSystem.SendBriefing(List%7BEntityUid%7D%2CSystem.String%2CSystem.Nullable%7BColor%7D%2CRobust.Shared.Audio.SoundSpecifier)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ministation/space-station-14/blob/master/Content.Server/Backmen/OldAntagSelectionSystem.cs/#L310">View Source</a>
+  </span>
+  <a id="Content_Server_Backmen_OldAntagSelectionSystem_SendBriefing_" data-uid="Content.Server.Backmen.OldAntagSelectionSystem.SendBriefing*"></a>
+  <h4 id="Content_Server_Backmen_OldAntagSelectionSystem_SendBriefing_List_EntityUid__System_String_System_Nullable_Color__Robust_Shared_Audio_SoundSpecifier_" data-uid="Content.Server.Backmen.OldAntagSelectionSystem.SendBriefing(List{EntityUid},System.String,System.Nullable{Color},Robust.Shared.Audio.SoundSpecifier)">SendBriefing(List&lt;EntityUid&gt;, String, Nullable&lt;Color&gt;, SoundSpecifier)</h4>
+  <div class="markdown level1 summary"><p>Helper method to send the briefing text and sound to a list of entities</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SendBriefing(List&lt;EntityUid&gt; entities, string briefing, Color? briefingColor, SoundSpecifier briefingSound)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<span class="xref">EntityUid</span>&gt;</td>
+        <td><span class="parametername">entities</span></td>
+        <td><p>The players chosen to be antags</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">briefing</span></td>
+        <td><p>The briefing text to send</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Color</span>&gt;</td>
+        <td><span class="parametername">briefingColor</span></td>
+        <td><p>The color the briefing should be, null for default</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Robust.Shared.Audio.SoundSpecifier</span></td>
+        <td><span class="parametername">briefingSound</span></td>
+        <td><p>The sound to briefing/greeting sound to play</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ministation/space-station-14/new/master/apiSpec/new?filename=Content_Server_Backmen_OldAntagSelectionSystem_SendBriefing_List_Robust_Shared_Player_ICommonSession__System_String_System_Nullable_Color__Robust_Shared_Audio_SoundSpecifier_.md&amp;value=---%0Auid%3A%20Content.Server.Backmen.OldAntagSelectionSystem.SendBriefing(List%7BRobust.Shared.Player.ICommonSession%7D%2CSystem.String%2CSystem.Nullable%7BColor%7D%2CRobust.Shared.Audio.SoundSpecifier)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ministation/space-station-14/blob/master/Content.Server/Backmen/OldAntagSelectionSystem.cs/#L344">View Source</a>
+  </span>
+  <a id="Content_Server_Backmen_OldAntagSelectionSystem_SendBriefing_" data-uid="Content.Server.Backmen.OldAntagSelectionSystem.SendBriefing*"></a>
+  <h4 id="Content_Server_Backmen_OldAntagSelectionSystem_SendBriefing_List_Robust_Shared_Player_ICommonSession__System_String_System_Nullable_Color__Robust_Shared_Audio_SoundSpecifier_" data-uid="Content.Server.Backmen.OldAntagSelectionSystem.SendBriefing(List{Robust.Shared.Player.ICommonSession},System.String,System.Nullable{Color},Robust.Shared.Audio.SoundSpecifier)">SendBriefing(List&lt;ICommonSession&gt;, String, Nullable&lt;Color&gt;, SoundSpecifier)</h4>
+  <div class="markdown level1 summary"><p>Helper method to send the briefing text and sound to a list of sessions</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SendBriefing(List&lt;ICommonSession&gt; sessions, string briefing, Color? briefingColor, SoundSpecifier briefingSound)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<span class="xref">Robust.Shared.Player.ICommonSession</span>&gt;</td>
+        <td><span class="parametername">sessions</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">briefing</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Color</span>&gt;</td>
+        <td><span class="parametername">briefingColor</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Robust.Shared.Audio.SoundSpecifier</span></td>
+        <td><span class="parametername">briefingSound</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ministation/space-station-14/new/master/apiSpec/new?filename=Content_Server_Backmen_OldAntagSelectionSystem_SendBriefing_Robust_Shared_Player_ICommonSession_System_String_System_Nullable_Color__Robust_Shared_Audio_SoundSpecifier_.md&amp;value=---%0Auid%3A%20Content.Server.Backmen.OldAntagSelectionSystem.SendBriefing(Robust.Shared.Player.ICommonSession%2CSystem.String%2CSystem.Nullable%7BColor%7D%2CRobust.Shared.Audio.SoundSpecifier)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ministation/space-station-14/blob/master/Content.Server/Backmen/OldAntagSelectionSystem.cs/#L359">View Source</a>
+  </span>
+  <a id="Content_Server_Backmen_OldAntagSelectionSystem_SendBriefing_" data-uid="Content.Server.Backmen.OldAntagSelectionSystem.SendBriefing*"></a>
+  <h4 id="Content_Server_Backmen_OldAntagSelectionSystem_SendBriefing_Robust_Shared_Player_ICommonSession_System_String_System_Nullable_Color__Robust_Shared_Audio_SoundSpecifier_" data-uid="Content.Server.Backmen.OldAntagSelectionSystem.SendBriefing(Robust.Shared.Player.ICommonSession,System.String,System.Nullable{Color},Robust.Shared.Audio.SoundSpecifier)">SendBriefing(ICommonSession, String, Nullable&lt;Color&gt;, SoundSpecifier)</h4>
+  <div class="markdown level1 summary"><p>Helper method to send the briefing text and sound to a session</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SendBriefing(ICommonSession session, string briefing, Color? briefingColor, SoundSpecifier briefingSound)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Robust.Shared.Player.ICommonSession</span></td>
+        <td><span class="parametername">session</span></td>
+        <td><p>The player chosen to be an antag</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">briefing</span></td>
+        <td><p>The briefing text to send</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Color</span>&gt;</td>
+        <td><span class="parametername">briefingColor</span></td>
+        <td><p>The color the briefing should be, null for default</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Robust.Shared.Audio.SoundSpecifier</span></td>
+        <td><span class="parametername">briefingSound</span></td>
+        <td><p>The sound to briefing/greeting sound to play</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/ministation/space-station-14/new/master/apiSpec/new?filename=Content_Server_Backmen_OldAntagSelectionSystem.md&amp;value=---%0Auid%3A%20Content.Server.Backmen.OldAntagSelectionSystem%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/ministation/space-station-14/blob/master/Content.Server/Backmen/OldAntagSelectionSystem.cs/#L24" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="toggle-mode">
+                <div class="icon">
+                  <i aria-hidden="true">☀</i>
+                </div>
+                <label class="switch">
+                  <input type="checkbox" id="switch-style">
+                  <span class="slider round"></span>
+                </label>
+                <div class="icon">
+                  <i aria-hidden="true">☾</i>
+                </div>
+              </div>
+          
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <h5>In This Article</h5>
+              <div></div>
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <div class="pull-left">
+              
+              <span>Generated by <strong>DocFX</strong></span>
+            </div>
+            <div class="toggle-mode pull-right visible-sm visible-xs">
+              <div class="icon">
+                <i aria-hidden="true">☀</i>
+              </div>
+              <label class="switch">
+                <input type="checkbox" id="switch-style-m">
+                <span class="slider round"></span>
+              </label>
+              <div class="icon">
+                <i aria-hidden="true">☾</i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script type="text/javascript" src="../../styles/toggle-theme.js"></script>
+      </footer>    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

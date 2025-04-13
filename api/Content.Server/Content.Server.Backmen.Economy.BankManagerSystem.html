@@ -1,0 +1,955 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class BankManagerSystem
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class BankManagerSystem
+   ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Content.Server.Backmen.Economy.BankManagerSystem">
+  
+  
+  <h1 id="Content_Server_Backmen_Economy_BankManagerSystem" data-uid="Content.Server.Backmen.Economy.BankManagerSystem" class="text-break">Class BankManagerSystem
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">BankManagerSystem</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Content.Server.Backmen.Economy.html">Content.Server.Backmen.Economy</a></h6>
+  <h6><strong>Assembly</strong>: Content.Server.dll</h6>
+  <h5 id="Content_Server_Backmen_Economy_BankManagerSystem_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class BankManagerSystem : EntitySystem</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ministation/space-station-14/new/master/apiSpec/new?filename=Content_Server_Backmen_Economy_BankManagerSystem_ActiveBankAccounts.md&amp;value=---%0Auid%3A%20Content.Server.Backmen.Economy.BankManagerSystem.ActiveBankAccounts%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ministation/space-station-14/blob/master/Content.Server/Backmen/Economy/BankManagerSystem.cs/#L27">View Source</a>
+  </span>
+  <h4 id="Content_Server_Backmen_Economy_BankManagerSystem_ActiveBankAccounts" data-uid="Content.Server.Backmen.Economy.BankManagerSystem.ActiveBankAccounts">ActiveBankAccounts</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly Dictionary&lt;string, Entity&lt;BankAccountComponent&gt;&gt; ActiveBankAccounts</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">Entity</span>&lt;<a class="xref" href="../Content.Shared/Content.Shared.Backmen.Economy.BankAccountComponent.html">BankAccountComponent</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ministation/space-station-14/new/master/apiSpec/new?filename=Content_Server_Backmen_Economy_BankManagerSystem_Clear.md&amp;value=---%0Auid%3A%20Content.Server.Backmen.Economy.BankManagerSystem.Clear%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ministation/space-station-14/blob/master/Content.Server/Backmen/Economy/BankManagerSystem.cs/#L282">View Source</a>
+  </span>
+  <a id="Content_Server_Backmen_Economy_BankManagerSystem_Clear_" data-uid="Content.Server.Backmen.Economy.BankManagerSystem.Clear*"></a>
+  <h4 id="Content_Server_Backmen_Economy_BankManagerSystem_Clear" data-uid="Content.Server.Backmen.Economy.BankManagerSystem.Clear">Clear()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Clear()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ministation/space-station-14/new/master/apiSpec/new?filename=Content_Server_Backmen_Economy_BankManagerSystem_CreateNewBankAccount_EntityUid_System_Nullable_System_String__System_Boolean_.md&amp;value=---%0Auid%3A%20Content.Server.Backmen.Economy.BankManagerSystem.CreateNewBankAccount(EntityUid%2CSystem.Nullable%7BSystem.String%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ministation/space-station-14/blob/master/Content.Server/Backmen/Economy/BankManagerSystem.cs/#L142">View Source</a>
+  </span>
+  <a id="Content_Server_Backmen_Economy_BankManagerSystem_CreateNewBankAccount_" data-uid="Content.Server.Backmen.Economy.BankManagerSystem.CreateNewBankAccount*"></a>
+  <h4 id="Content_Server_Backmen_Economy_BankManagerSystem_CreateNewBankAccount_EntityUid_System_Nullable_System_String__System_Boolean_" data-uid="Content.Server.Backmen.Economy.BankManagerSystem.CreateNewBankAccount(EntityUid,System.Nullable{System.String},System.Boolean)">CreateNewBankAccount(EntityUid, Nullable&lt;String&gt;, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Entity&lt;BankAccountComponent&gt;? CreateNewBankAccount(EntityUid idCardId, string? bankAccountNumber = null, bool isInfinite = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EntityUid</span></td>
+        <td><span class="parametername">idCardId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">bankAccountNumber</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isInfinite</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Entity</span>&lt;<a class="xref" href="../Content.Shared/Content.Shared.Backmen.Economy.BankAccountComponent.html">BankAccountComponent</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ministation/space-station-14/new/master/apiSpec/new?filename=Content_Server_Backmen_Economy_BankManagerSystem_Initialize.md&amp;value=---%0Auid%3A%20Content.Server.Backmen.Economy.BankManagerSystem.Initialize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ministation/space-station-14/blob/master/Content.Server/Backmen/Economy/BankManagerSystem.cs/#L29">View Source</a>
+  </span>
+  <a id="Content_Server_Backmen_Economy_BankManagerSystem_Initialize_" data-uid="Content.Server.Backmen.Economy.BankManagerSystem.Initialize*"></a>
+  <h4 id="Content_Server_Backmen_Economy_BankManagerSystem_Initialize" data-uid="Content.Server.Backmen.Economy.BankManagerSystem.Initialize">Initialize()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Initialize()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ministation/space-station-14/new/master/apiSpec/new?filename=Content_Server_Backmen_Economy_BankManagerSystem_TryChangeBalanceBy_Entity_Content_Shared_Backmen_Economy_BankAccountComponent__Content_Shared_FixedPoint_FixedPoint2_.md&amp;value=---%0Auid%3A%20Content.Server.Backmen.Economy.BankManagerSystem.TryChangeBalanceBy(Entity%7BContent.Shared.Backmen.Economy.BankAccountComponent%7D%2CContent.Shared.FixedPoint.FixedPoint2)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ministation/space-station-14/blob/master/Content.Server/Backmen/Economy/BankManagerSystem.cs/#L68">View Source</a>
+  </span>
+  <a id="Content_Server_Backmen_Economy_BankManagerSystem_TryChangeBalanceBy_" data-uid="Content.Server.Backmen.Economy.BankManagerSystem.TryChangeBalanceBy*"></a>
+  <h4 id="Content_Server_Backmen_Economy_BankManagerSystem_TryChangeBalanceBy_Entity_Content_Shared_Backmen_Economy_BankAccountComponent__Content_Shared_FixedPoint_FixedPoint2_" data-uid="Content.Server.Backmen.Economy.BankManagerSystem.TryChangeBalanceBy(Entity{Content.Shared.Backmen.Economy.BankAccountComponent},Content.Shared.FixedPoint.FixedPoint2)">TryChangeBalanceBy(Entity&lt;BankAccountComponent&gt;, FixedPoint2)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryChangeBalanceBy(Entity&lt;BankAccountComponent&gt; uid, FixedPoint2 amount)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Entity</span>&lt;<a class="xref" href="../Content.Shared/Content.Shared.Backmen.Economy.BankAccountComponent.html">BankAccountComponent</a>&gt;</td>
+        <td><span class="parametername">uid</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../Content.Shared/Content.Shared.FixedPoint.FixedPoint2.html">FixedPoint2</a></td>
+        <td><span class="parametername">amount</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ministation/space-station-14/new/master/apiSpec/new?filename=Content_Server_Backmen_Economy_BankManagerSystem_TryGenerateStartingBalance_Content_Shared_Backmen_Economy_BankAccountComponent_Content_Shared_Roles_JobPrototype_.md&amp;value=---%0Auid%3A%20Content.Server.Backmen.Economy.BankManagerSystem.TryGenerateStartingBalance(Content.Shared.Backmen.Economy.BankAccountComponent%2CContent.Shared.Roles.JobPrototype)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ministation/space-station-14/blob/master/Content.Server/Backmen/Economy/BankManagerSystem.cs/#L274">View Source</a>
+  </span>
+  <a id="Content_Server_Backmen_Economy_BankManagerSystem_TryGenerateStartingBalance_" data-uid="Content.Server.Backmen.Economy.BankManagerSystem.TryGenerateStartingBalance*"></a>
+  <h4 id="Content_Server_Backmen_Economy_BankManagerSystem_TryGenerateStartingBalance_Content_Shared_Backmen_Economy_BankAccountComponent_Content_Shared_Roles_JobPrototype_" data-uid="Content.Server.Backmen.Economy.BankManagerSystem.TryGenerateStartingBalance(Content.Shared.Backmen.Economy.BankAccountComponent,Content.Shared.Roles.JobPrototype)">TryGenerateStartingBalance(BankAccountComponent, JobPrototype)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void TryGenerateStartingBalance(BankAccountComponent bankAccount, JobPrototype jobPrototype)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../Content.Shared/Content.Shared.Backmen.Economy.BankAccountComponent.html">BankAccountComponent</a></td>
+        <td><span class="parametername">bankAccount</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../Content.Shared/Content.Shared.Roles.JobPrototype.html">JobPrototype</a></td>
+        <td><span class="parametername">jobPrototype</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ministation/space-station-14/new/master/apiSpec/new?filename=Content_Server_Backmen_Economy_BankManagerSystem_TryGetBankAccount_System_Nullable_EntityUid__System_Nullable_Entity_Content_Shared_Backmen_Economy_BankAccountComponent____.md&amp;value=---%0Auid%3A%20Content.Server.Backmen.Economy.BankManagerSystem.TryGetBankAccount(System.Nullable%7BEntityUid%7D%2CSystem.Nullable%7BEntity%7BContent.Shared.Backmen.Economy.BankAccountComponent%7D%7D%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ministation/space-station-14/blob/master/Content.Server/Backmen/Economy/BankManagerSystem.cs/#L107">View Source</a>
+  </span>
+  <a id="Content_Server_Backmen_Economy_BankManagerSystem_TryGetBankAccount_" data-uid="Content.Server.Backmen.Economy.BankManagerSystem.TryGetBankAccount*"></a>
+  <h4 id="Content_Server_Backmen_Economy_BankManagerSystem_TryGetBankAccount_System_Nullable_EntityUid__System_Nullable_Entity_Content_Shared_Backmen_Economy_BankAccountComponent____" data-uid="Content.Server.Backmen.Economy.BankManagerSystem.TryGetBankAccount(System.Nullable{EntityUid},System.Nullable{Entity{Content.Shared.Backmen.Economy.BankAccountComponent}}@)">TryGetBankAccount(Nullable&lt;EntityUid&gt;, out Nullable&lt;Entity&lt;BankAccountComponent&gt;&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryGetBankAccount(EntityUid? bankAccountOwner, out Entity&lt;BankAccountComponent&gt;? bankAccount)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">EntityUid</span>&gt;</td>
+        <td><span class="parametername">bankAccountOwner</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Entity</span>&lt;<a class="xref" href="../Content.Shared/Content.Shared.Backmen.Economy.BankAccountComponent.html">BankAccountComponent</a>&gt;&gt;</td>
+        <td><span class="parametername">bankAccount</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ministation/space-station-14/new/master/apiSpec/new?filename=Content_Server_Backmen_Economy_BankManagerSystem_TryGetBankAccount_System_Nullable_System_String__System_Nullable_Entity_Content_Shared_Backmen_Economy_BankAccountComponent____.md&amp;value=---%0Auid%3A%20Content.Server.Backmen.Economy.BankManagerSystem.TryGetBankAccount(System.Nullable%7BSystem.String%7D%2CSystem.Nullable%7BEntity%7BContent.Shared.Backmen.Economy.BankAccountComponent%7D%7D%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ministation/space-station-14/blob/master/Content.Server/Backmen/Economy/BankManagerSystem.cs/#L125">View Source</a>
+  </span>
+  <a id="Content_Server_Backmen_Economy_BankManagerSystem_TryGetBankAccount_" data-uid="Content.Server.Backmen.Economy.BankManagerSystem.TryGetBankAccount*"></a>
+  <h4 id="Content_Server_Backmen_Economy_BankManagerSystem_TryGetBankAccount_System_Nullable_System_String__System_Nullable_Entity_Content_Shared_Backmen_Economy_BankAccountComponent____" data-uid="Content.Server.Backmen.Economy.BankManagerSystem.TryGetBankAccount(System.Nullable{System.String},System.Nullable{Entity{Content.Shared.Backmen.Economy.BankAccountComponent}}@)">TryGetBankAccount(Nullable&lt;String&gt;, out Nullable&lt;Entity&lt;BankAccountComponent&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>ТОЛЬКО ИЗ РУЧНОГО НАБОРА ПОЛЬЗОВАТЕЛЯ!!!</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryGetBankAccount(string? bankAccountNumber, out Entity&lt;BankAccountComponent&gt;? bankAccount)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">bankAccountNumber</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Entity</span>&lt;<a class="xref" href="../Content.Shared/Content.Shared.Backmen.Economy.BankAccountComponent.html">BankAccountComponent</a>&gt;&gt;</td>
+        <td><span class="parametername">bankAccount</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ministation/space-station-14/new/master/apiSpec/new?filename=Content_Server_Backmen_Economy_BankManagerSystem_TryInsertToBankAccount_Entity_Content_Shared_Backmen_Economy_BankAccountComponent__KeyValuePair_Robust_Shared_Prototypes_ProtoId_Content_Shared_Store_CurrencyPrototype__Content_Shared_FixedPoint_FixedPoint2__.md&amp;value=---%0Auid%3A%20Content.Server.Backmen.Economy.BankManagerSystem.TryInsertToBankAccount(Entity%7BContent.Shared.Backmen.Economy.BankAccountComponent%7D%2CKeyValuePair%7BRobust.Shared.Prototypes.ProtoId%7BContent.Shared.Store.CurrencyPrototype%7D%2CContent.Shared.FixedPoint.FixedPoint2%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ministation/space-station-14/blob/master/Content.Server/Backmen/Economy/BankManagerSystem.cs/#L226">View Source</a>
+  </span>
+  <a id="Content_Server_Backmen_Economy_BankManagerSystem_TryInsertToBankAccount_" data-uid="Content.Server.Backmen.Economy.BankManagerSystem.TryInsertToBankAccount*"></a>
+  <h4 id="Content_Server_Backmen_Economy_BankManagerSystem_TryInsertToBankAccount_Entity_Content_Shared_Backmen_Economy_BankAccountComponent__KeyValuePair_Robust_Shared_Prototypes_ProtoId_Content_Shared_Store_CurrencyPrototype__Content_Shared_FixedPoint_FixedPoint2__" data-uid="Content.Server.Backmen.Economy.BankManagerSystem.TryInsertToBankAccount(Entity{Content.Shared.Backmen.Economy.BankAccountComponent},KeyValuePair{Robust.Shared.Prototypes.ProtoId{Content.Shared.Store.CurrencyPrototype},Content.Shared.FixedPoint.FixedPoint2})">TryInsertToBankAccount(Entity&lt;BankAccountComponent&gt;, KeyValuePair&lt;ProtoId&lt;CurrencyPrototype&gt;, FixedPoint2&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryInsertToBankAccount(Entity&lt;BankAccountComponent&gt; bankAccount, KeyValuePair&lt;ProtoId&lt;CurrencyPrototype&gt;, FixedPoint2&gt; currency)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Entity</span>&lt;<a class="xref" href="../Content.Shared/Content.Shared.Backmen.Economy.BankAccountComponent.html">BankAccountComponent</a>&gt;</td>
+        <td><span class="parametername">bankAccount</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">KeyValuePair</span>&lt;<span class="xref">Robust.Shared.Prototypes.ProtoId</span>&lt;<a class="xref" href="../Content.Shared/Content.Shared.Store.CurrencyPrototype.html">CurrencyPrototype</a>&gt;, <a class="xref" href="../Content.Shared/Content.Shared.FixedPoint.FixedPoint2.html">FixedPoint2</a>&gt;</td>
+        <td><span class="parametername">currency</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ministation/space-station-14/new/master/apiSpec/new?filename=Content_Server_Backmen_Economy_BankManagerSystem_TryInsertToBankAccount_System_Nullable_Entity_Content_Shared_Backmen_Economy_BankAccountComponent___KeyValuePair_Robust_Shared_Prototypes_ProtoId_Content_Shared_Store_CurrencyPrototype__Content_Shared_FixedPoint_FixedPoint2__.md&amp;value=---%0Auid%3A%20Content.Server.Backmen.Economy.BankManagerSystem.TryInsertToBankAccount(System.Nullable%7BEntity%7BContent.Shared.Backmen.Economy.BankAccountComponent%7D%7D%2CKeyValuePair%7BRobust.Shared.Prototypes.ProtoId%7BContent.Shared.Store.CurrencyPrototype%7D%2CContent.Shared.FixedPoint.FixedPoint2%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ministation/space-station-14/blob/master/Content.Server/Backmen/Economy/BankManagerSystem.cs/#L218">View Source</a>
+  </span>
+  <a id="Content_Server_Backmen_Economy_BankManagerSystem_TryInsertToBankAccount_" data-uid="Content.Server.Backmen.Economy.BankManagerSystem.TryInsertToBankAccount*"></a>
+  <h4 id="Content_Server_Backmen_Economy_BankManagerSystem_TryInsertToBankAccount_System_Nullable_Entity_Content_Shared_Backmen_Economy_BankAccountComponent___KeyValuePair_Robust_Shared_Prototypes_ProtoId_Content_Shared_Store_CurrencyPrototype__Content_Shared_FixedPoint_FixedPoint2__" data-uid="Content.Server.Backmen.Economy.BankManagerSystem.TryInsertToBankAccount(System.Nullable{Entity{Content.Shared.Backmen.Economy.BankAccountComponent}},KeyValuePair{Robust.Shared.Prototypes.ProtoId{Content.Shared.Store.CurrencyPrototype},Content.Shared.FixedPoint.FixedPoint2})">TryInsertToBankAccount(Nullable&lt;Entity&lt;BankAccountComponent&gt;&gt;, KeyValuePair&lt;ProtoId&lt;CurrencyPrototype&gt;, FixedPoint2&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryInsertToBankAccount(Entity&lt;BankAccountComponent&gt;? bankAccount, KeyValuePair&lt;ProtoId&lt;CurrencyPrototype&gt;, FixedPoint2&gt; currency)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Entity</span>&lt;<a class="xref" href="../Content.Shared/Content.Shared.Backmen.Economy.BankAccountComponent.html">BankAccountComponent</a>&gt;&gt;</td>
+        <td><span class="parametername">bankAccount</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">KeyValuePair</span>&lt;<span class="xref">Robust.Shared.Prototypes.ProtoId</span>&lt;<a class="xref" href="../Content.Shared/Content.Shared.Store.CurrencyPrototype.html">CurrencyPrototype</a>&gt;, <a class="xref" href="../Content.Shared/Content.Shared.FixedPoint.FixedPoint2.html">FixedPoint2</a>&gt;</td>
+        <td><span class="parametername">currency</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ministation/space-station-14/new/master/apiSpec/new?filename=Content_Server_Backmen_Economy_BankManagerSystem_TryInsertToBankAccount_System_Nullable_System_String__KeyValuePair_Robust_Shared_Prototypes_ProtoId_Content_Shared_Store_CurrencyPrototype__Content_Shared_FixedPoint_FixedPoint2__.md&amp;value=---%0Auid%3A%20Content.Server.Backmen.Economy.BankManagerSystem.TryInsertToBankAccount(System.Nullable%7BSystem.String%7D%2CKeyValuePair%7BRobust.Shared.Prototypes.ProtoId%7BContent.Shared.Store.CurrencyPrototype%7D%2CContent.Shared.FixedPoint.FixedPoint2%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ministation/space-station-14/blob/master/Content.Server/Backmen/Economy/BankManagerSystem.cs/#L207">View Source</a>
+  </span>
+  <a id="Content_Server_Backmen_Economy_BankManagerSystem_TryInsertToBankAccount_" data-uid="Content.Server.Backmen.Economy.BankManagerSystem.TryInsertToBankAccount*"></a>
+  <h4 id="Content_Server_Backmen_Economy_BankManagerSystem_TryInsertToBankAccount_System_Nullable_System_String__KeyValuePair_Robust_Shared_Prototypes_ProtoId_Content_Shared_Store_CurrencyPrototype__Content_Shared_FixedPoint_FixedPoint2__" data-uid="Content.Server.Backmen.Economy.BankManagerSystem.TryInsertToBankAccount(System.Nullable{System.String},KeyValuePair{Robust.Shared.Prototypes.ProtoId{Content.Shared.Store.CurrencyPrototype},Content.Shared.FixedPoint.FixedPoint2})">TryInsertToBankAccount(Nullable&lt;String&gt;, KeyValuePair&lt;ProtoId&lt;CurrencyPrototype&gt;, FixedPoint2&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryInsertToBankAccount(string? bankAccountNumber, KeyValuePair&lt;ProtoId&lt;CurrencyPrototype&gt;, FixedPoint2&gt; currency)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">bankAccountNumber</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">KeyValuePair</span>&lt;<span class="xref">Robust.Shared.Prototypes.ProtoId</span>&lt;<a class="xref" href="../Content.Shared/Content.Shared.Store.CurrencyPrototype.html">CurrencyPrototype</a>&gt;, <a class="xref" href="../Content.Shared/Content.Shared.FixedPoint.FixedPoint2.html">FixedPoint2</a>&gt;</td>
+        <td><span class="parametername">currency</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ministation/space-station-14/new/master/apiSpec/new?filename=Content_Server_Backmen_Economy_BankManagerSystem_TrySetBalance_Entity_Content_Shared_Backmen_Economy_BankAccountComponent__Content_Shared_FixedPoint_FixedPoint2_.md&amp;value=---%0Auid%3A%20Content.Server.Backmen.Economy.BankManagerSystem.TrySetBalance(Entity%7BContent.Shared.Backmen.Economy.BankAccountComponent%7D%2CContent.Shared.FixedPoint.FixedPoint2)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ministation/space-station-14/blob/master/Content.Server/Backmen/Economy/BankManagerSystem.cs/#L85">View Source</a>
+  </span>
+  <a id="Content_Server_Backmen_Economy_BankManagerSystem_TrySetBalance_" data-uid="Content.Server.Backmen.Economy.BankManagerSystem.TrySetBalance*"></a>
+  <h4 id="Content_Server_Backmen_Economy_BankManagerSystem_TrySetBalance_Entity_Content_Shared_Backmen_Economy_BankAccountComponent__Content_Shared_FixedPoint_FixedPoint2_" data-uid="Content.Server.Backmen.Economy.BankManagerSystem.TrySetBalance(Entity{Content.Shared.Backmen.Economy.BankAccountComponent},Content.Shared.FixedPoint.FixedPoint2)">TrySetBalance(Entity&lt;BankAccountComponent&gt;, FixedPoint2)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TrySetBalance(Entity&lt;BankAccountComponent&gt; uid, FixedPoint2 amount)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Entity</span>&lt;<a class="xref" href="../Content.Shared/Content.Shared.Backmen.Economy.BankAccountComponent.html">BankAccountComponent</a>&gt;</td>
+        <td><span class="parametername">uid</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../Content.Shared/Content.Shared.FixedPoint.FixedPoint2.html">FixedPoint2</a></td>
+        <td><span class="parametername">amount</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ministation/space-station-14/new/master/apiSpec/new?filename=Content_Server_Backmen_Economy_BankManagerSystem_TryTransferFromToBankAccount_Entity_Content_Shared_Backmen_Economy_BankAccountComponent__Entity_Content_Shared_Backmen_Economy_BankAccountComponent__Content_Shared_FixedPoint_FixedPoint2_.md&amp;value=---%0Auid%3A%20Content.Server.Backmen.Economy.BankManagerSystem.TryTransferFromToBankAccount(Entity%7BContent.Shared.Backmen.Economy.BankAccountComponent%7D%2CEntity%7BContent.Shared.Backmen.Economy.BankAccountComponent%7D%2CContent.Shared.FixedPoint.FixedPoint2)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ministation/space-station-14/blob/master/Content.Server/Backmen/Economy/BankManagerSystem.cs/#L252">View Source</a>
+  </span>
+  <a id="Content_Server_Backmen_Economy_BankManagerSystem_TryTransferFromToBankAccount_" data-uid="Content.Server.Backmen.Economy.BankManagerSystem.TryTransferFromToBankAccount*"></a>
+  <h4 id="Content_Server_Backmen_Economy_BankManagerSystem_TryTransferFromToBankAccount_Entity_Content_Shared_Backmen_Economy_BankAccountComponent__Entity_Content_Shared_Backmen_Economy_BankAccountComponent__Content_Shared_FixedPoint_FixedPoint2_" data-uid="Content.Server.Backmen.Economy.BankManagerSystem.TryTransferFromToBankAccount(Entity{Content.Shared.Backmen.Economy.BankAccountComponent},Entity{Content.Shared.Backmen.Economy.BankAccountComponent},Content.Shared.FixedPoint.FixedPoint2)">TryTransferFromToBankAccount(Entity&lt;BankAccountComponent&gt;, Entity&lt;BankAccountComponent&gt;, FixedPoint2)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryTransferFromToBankAccount(Entity&lt;BankAccountComponent&gt; bankAccountFrom, Entity&lt;BankAccountComponent&gt; bankAccountTo, FixedPoint2 amount)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Entity</span>&lt;<a class="xref" href="../Content.Shared/Content.Shared.Backmen.Economy.BankAccountComponent.html">BankAccountComponent</a>&gt;</td>
+        <td><span class="parametername">bankAccountFrom</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Entity</span>&lt;<a class="xref" href="../Content.Shared/Content.Shared.Backmen.Economy.BankAccountComponent.html">BankAccountComponent</a>&gt;</td>
+        <td><span class="parametername">bankAccountTo</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../Content.Shared/Content.Shared.FixedPoint.FixedPoint2.html">FixedPoint2</a></td>
+        <td><span class="parametername">amount</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ministation/space-station-14/new/master/apiSpec/new?filename=Content_Server_Backmen_Economy_BankManagerSystem_TryTransferFromToBankAccount_System_Nullable_Entity_Content_Shared_Backmen_Economy_BankAccountComponent___System_Nullable_Entity_Content_Shared_Backmen_Economy_BankAccountComponent___Content_Shared_FixedPoint_FixedPoint2_.md&amp;value=---%0Auid%3A%20Content.Server.Backmen.Economy.BankManagerSystem.TryTransferFromToBankAccount(System.Nullable%7BEntity%7BContent.Shared.Backmen.Economy.BankAccountComponent%7D%7D%2CSystem.Nullable%7BEntity%7BContent.Shared.Backmen.Economy.BankAccountComponent%7D%7D%2CContent.Shared.FixedPoint.FixedPoint2)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ministation/space-station-14/blob/master/Content.Server/Backmen/Economy/BankManagerSystem.cs/#L244">View Source</a>
+  </span>
+  <a id="Content_Server_Backmen_Economy_BankManagerSystem_TryTransferFromToBankAccount_" data-uid="Content.Server.Backmen.Economy.BankManagerSystem.TryTransferFromToBankAccount*"></a>
+  <h4 id="Content_Server_Backmen_Economy_BankManagerSystem_TryTransferFromToBankAccount_System_Nullable_Entity_Content_Shared_Backmen_Economy_BankAccountComponent___System_Nullable_Entity_Content_Shared_Backmen_Economy_BankAccountComponent___Content_Shared_FixedPoint_FixedPoint2_" data-uid="Content.Server.Backmen.Economy.BankManagerSystem.TryTransferFromToBankAccount(System.Nullable{Entity{Content.Shared.Backmen.Economy.BankAccountComponent}},System.Nullable{Entity{Content.Shared.Backmen.Economy.BankAccountComponent}},Content.Shared.FixedPoint.FixedPoint2)">TryTransferFromToBankAccount(Nullable&lt;Entity&lt;BankAccountComponent&gt;&gt;, Nullable&lt;Entity&lt;BankAccountComponent&gt;&gt;, FixedPoint2)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryTransferFromToBankAccount(Entity&lt;BankAccountComponent&gt;? bankAccountFromNumber, Entity&lt;BankAccountComponent&gt;? bankAccountToNumber, FixedPoint2 amount)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Entity</span>&lt;<a class="xref" href="../Content.Shared/Content.Shared.Backmen.Economy.BankAccountComponent.html">BankAccountComponent</a>&gt;&gt;</td>
+        <td><span class="parametername">bankAccountFromNumber</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Entity</span>&lt;<a class="xref" href="../Content.Shared/Content.Shared.Backmen.Economy.BankAccountComponent.html">BankAccountComponent</a>&gt;&gt;</td>
+        <td><span class="parametername">bankAccountToNumber</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../Content.Shared/Content.Shared.FixedPoint.FixedPoint2.html">FixedPoint2</a></td>
+        <td><span class="parametername">amount</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ministation/space-station-14/new/master/apiSpec/new?filename=Content_Server_Backmen_Economy_BankManagerSystem_TryWithdrawFromBankAccount_Entity_Content_Shared_Backmen_Economy_BankAccountComponent__KeyValuePair_Robust_Shared_Prototypes_ProtoId_Content_Shared_Store_CurrencyPrototype__Content_Shared_FixedPoint_FixedPoint2__.md&amp;value=---%0Auid%3A%20Content.Server.Backmen.Economy.BankManagerSystem.TryWithdrawFromBankAccount(Entity%7BContent.Shared.Backmen.Economy.BankAccountComponent%7D%2CKeyValuePair%7BRobust.Shared.Prototypes.ProtoId%7BContent.Shared.Store.CurrencyPrototype%7D%2CContent.Shared.FixedPoint.FixedPoint2%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ministation/space-station-14/blob/master/Content.Server/Backmen/Economy/BankManagerSystem.cs/#L189">View Source</a>
+  </span>
+  <a id="Content_Server_Backmen_Economy_BankManagerSystem_TryWithdrawFromBankAccount_" data-uid="Content.Server.Backmen.Economy.BankManagerSystem.TryWithdrawFromBankAccount*"></a>
+  <h4 id="Content_Server_Backmen_Economy_BankManagerSystem_TryWithdrawFromBankAccount_Entity_Content_Shared_Backmen_Economy_BankAccountComponent__KeyValuePair_Robust_Shared_Prototypes_ProtoId_Content_Shared_Store_CurrencyPrototype__Content_Shared_FixedPoint_FixedPoint2__" data-uid="Content.Server.Backmen.Economy.BankManagerSystem.TryWithdrawFromBankAccount(Entity{Content.Shared.Backmen.Economy.BankAccountComponent},KeyValuePair{Robust.Shared.Prototypes.ProtoId{Content.Shared.Store.CurrencyPrototype},Content.Shared.FixedPoint.FixedPoint2})">TryWithdrawFromBankAccount(Entity&lt;BankAccountComponent&gt;, KeyValuePair&lt;ProtoId&lt;CurrencyPrototype&gt;, FixedPoint2&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryWithdrawFromBankAccount(Entity&lt;BankAccountComponent&gt; bankAccount, KeyValuePair&lt;ProtoId&lt;CurrencyPrototype&gt;, FixedPoint2&gt; currency)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Entity</span>&lt;<a class="xref" href="../Content.Shared/Content.Shared.Backmen.Economy.BankAccountComponent.html">BankAccountComponent</a>&gt;</td>
+        <td><span class="parametername">bankAccount</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">KeyValuePair</span>&lt;<span class="xref">Robust.Shared.Prototypes.ProtoId</span>&lt;<a class="xref" href="../Content.Shared/Content.Shared.Store.CurrencyPrototype.html">CurrencyPrototype</a>&gt;, <a class="xref" href="../Content.Shared/Content.Shared.FixedPoint.FixedPoint2.html">FixedPoint2</a>&gt;</td>
+        <td><span class="parametername">currency</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ministation/space-station-14/new/master/apiSpec/new?filename=Content_Server_Backmen_Economy_BankManagerSystem_TryWithdrawFromBankAccount_EntityUid_KeyValuePair_Robust_Shared_Prototypes_ProtoId_Content_Shared_Store_CurrencyPrototype__Content_Shared_FixedPoint_FixedPoint2__Content_Shared_Backmen_Economy_BankAccountComponent_.md&amp;value=---%0Auid%3A%20Content.Server.Backmen.Economy.BankManagerSystem.TryWithdrawFromBankAccount(EntityUid%2CKeyValuePair%7BRobust.Shared.Prototypes.ProtoId%7BContent.Shared.Store.CurrencyPrototype%7D%2CContent.Shared.FixedPoint.FixedPoint2%7D%2CContent.Shared.Backmen.Economy.BankAccountComponent)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ministation/space-station-14/blob/master/Content.Server/Backmen/Economy/BankManagerSystem.cs/#L183">View Source</a>
+  </span>
+  <a id="Content_Server_Backmen_Economy_BankManagerSystem_TryWithdrawFromBankAccount_" data-uid="Content.Server.Backmen.Economy.BankManagerSystem.TryWithdrawFromBankAccount*"></a>
+  <h4 id="Content_Server_Backmen_Economy_BankManagerSystem_TryWithdrawFromBankAccount_EntityUid_KeyValuePair_Robust_Shared_Prototypes_ProtoId_Content_Shared_Store_CurrencyPrototype__Content_Shared_FixedPoint_FixedPoint2__Content_Shared_Backmen_Economy_BankAccountComponent_" data-uid="Content.Server.Backmen.Economy.BankManagerSystem.TryWithdrawFromBankAccount(EntityUid,KeyValuePair{Robust.Shared.Prototypes.ProtoId{Content.Shared.Store.CurrencyPrototype},Content.Shared.FixedPoint.FixedPoint2},Content.Shared.Backmen.Economy.BankAccountComponent)">TryWithdrawFromBankAccount(EntityUid, KeyValuePair&lt;ProtoId&lt;CurrencyPrototype&gt;, FixedPoint2&gt;, BankAccountComponent)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryWithdrawFromBankAccount(EntityUid bankAccount, KeyValuePair&lt;ProtoId&lt;CurrencyPrototype&gt;, FixedPoint2&gt; currency, BankAccountComponent bankAccountComponent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EntityUid</span></td>
+        <td><span class="parametername">bankAccount</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">KeyValuePair</span>&lt;<span class="xref">Robust.Shared.Prototypes.ProtoId</span>&lt;<a class="xref" href="../Content.Shared/Content.Shared.Store.CurrencyPrototype.html">CurrencyPrototype</a>&gt;, <a class="xref" href="../Content.Shared/Content.Shared.FixedPoint.FixedPoint2.html">FixedPoint2</a>&gt;</td>
+        <td><span class="parametername">currency</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../Content.Shared/Content.Shared.Backmen.Economy.BankAccountComponent.html">BankAccountComponent</a></td>
+        <td><span class="parametername">bankAccountComponent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ministation/space-station-14/new/master/apiSpec/new?filename=Content_Server_Backmen_Economy_BankManagerSystem_TryWithdrawFromBankAccount_System_Nullable_Entity_Content_Shared_Backmen_Economy_BankAccountComponent___KeyValuePair_Robust_Shared_Prototypes_ProtoId_Content_Shared_Store_CurrencyPrototype__Content_Shared_FixedPoint_FixedPoint2__.md&amp;value=---%0Auid%3A%20Content.Server.Backmen.Economy.BankManagerSystem.TryWithdrawFromBankAccount(System.Nullable%7BEntity%7BContent.Shared.Backmen.Economy.BankAccountComponent%7D%7D%2CKeyValuePair%7BRobust.Shared.Prototypes.ProtoId%7BContent.Shared.Store.CurrencyPrototype%7D%2CContent.Shared.FixedPoint.FixedPoint2%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ministation/space-station-14/blob/master/Content.Server/Backmen/Economy/BankManagerSystem.cs/#L174">View Source</a>
+  </span>
+  <a id="Content_Server_Backmen_Economy_BankManagerSystem_TryWithdrawFromBankAccount_" data-uid="Content.Server.Backmen.Economy.BankManagerSystem.TryWithdrawFromBankAccount*"></a>
+  <h4 id="Content_Server_Backmen_Economy_BankManagerSystem_TryWithdrawFromBankAccount_System_Nullable_Entity_Content_Shared_Backmen_Economy_BankAccountComponent___KeyValuePair_Robust_Shared_Prototypes_ProtoId_Content_Shared_Store_CurrencyPrototype__Content_Shared_FixedPoint_FixedPoint2__" data-uid="Content.Server.Backmen.Economy.BankManagerSystem.TryWithdrawFromBankAccount(System.Nullable{Entity{Content.Shared.Backmen.Economy.BankAccountComponent}},KeyValuePair{Robust.Shared.Prototypes.ProtoId{Content.Shared.Store.CurrencyPrototype},Content.Shared.FixedPoint.FixedPoint2})">TryWithdrawFromBankAccount(Nullable&lt;Entity&lt;BankAccountComponent&gt;&gt;, KeyValuePair&lt;ProtoId&lt;CurrencyPrototype&gt;, FixedPoint2&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryWithdrawFromBankAccount(Entity&lt;BankAccountComponent&gt;? bankAccount, KeyValuePair&lt;ProtoId&lt;CurrencyPrototype&gt;, FixedPoint2&gt; currency)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Entity</span>&lt;<a class="xref" href="../Content.Shared/Content.Shared.Backmen.Economy.BankAccountComponent.html">BankAccountComponent</a>&gt;&gt;</td>
+        <td><span class="parametername">bankAccount</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">KeyValuePair</span>&lt;<span class="xref">Robust.Shared.Prototypes.ProtoId</span>&lt;<a class="xref" href="../Content.Shared/Content.Shared.Store.CurrencyPrototype.html">CurrencyPrototype</a>&gt;, <a class="xref" href="../Content.Shared/Content.Shared.FixedPoint.FixedPoint2.html">FixedPoint2</a>&gt;</td>
+        <td><span class="parametername">currency</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/ministation/space-station-14/new/master/apiSpec/new?filename=Content_Server_Backmen_Economy_BankManagerSystem.md&amp;value=---%0Auid%3A%20Content.Server.Backmen.Economy.BankManagerSystem%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/ministation/space-station-14/blob/master/Content.Server/Backmen/Economy/BankManagerSystem.cs/#L21" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="toggle-mode">
+                <div class="icon">
+                  <i aria-hidden="true">☀</i>
+                </div>
+                <label class="switch">
+                  <input type="checkbox" id="switch-style">
+                  <span class="slider round"></span>
+                </label>
+                <div class="icon">
+                  <i aria-hidden="true">☾</i>
+                </div>
+              </div>
+          
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <h5>In This Article</h5>
+              <div></div>
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <div class="pull-left">
+              
+              <span>Generated by <strong>DocFX</strong></span>
+            </div>
+            <div class="toggle-mode pull-right visible-sm visible-xs">
+              <div class="icon">
+                <i aria-hidden="true">☀</i>
+              </div>
+              <label class="switch">
+                <input type="checkbox" id="switch-style-m">
+                <span class="slider round"></span>
+              </label>
+              <div class="icon">
+                <i aria-hidden="true">☾</i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script type="text/javascript" src="../../styles/toggle-theme.js"></script>
+      </footer>    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>
