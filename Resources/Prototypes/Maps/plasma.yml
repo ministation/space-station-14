@@ -61,7 +61,6 @@
             SalvageSpecialist: [ 3, 3 ]
             CargoTechnician: [ 4, 6 ]
             #civilian - the tiders yearn for the mines
-            Passenger: [ -1, -1 ]
             # silicon
             StationAi: [ 1, 1 ]
             Borg: [ 2, 2 ]
